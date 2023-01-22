@@ -1,0 +1,29 @@
+{
+  "id": "30303f33-b085-4e54-9288-2775170127ca",
+  "type": "magnet",
+  "supplier": "Toda Magnetquench Magnetic Material (Tianjin) Co., Ltd.",
+  "url": "http://en.tmmmt.cn/products_detail/productId=22.html",
+  "name": "NdFeB PPS Compound M760",
+  "Density (kg/m3)": 5200,
+  "Conductivity (S/m)": 10,
+  "Br max. (T)": 0.52,
+  "Br min. (T)": 0.52,
+  "Hcb max. (A/m)": -358e3,
+  "Hcb min. (A/m)": -358e3,
+  "Hcj max. (A/m)": -955e3,
+  "Hcj min. (A/m)": -955e3,
+  "BH max. (J/m3)": 46e3,
+  "BH min. (J/m3)": 46e3,
+  "Tc Br (%/C)": -0.13,
+  "Tc Hcb (%/C)": -0.4,
+  "Tc Conductivity (%/C)": -0.4041,
+  "Curie Temperature (C)": 315,
+  "Possible Magnetisation": ["diametral","radial","lateral"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

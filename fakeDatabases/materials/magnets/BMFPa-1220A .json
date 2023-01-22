@@ -1,0 +1,28 @@
+{
+  "id": "7fb50fc1-ac06-4081-9274-4ae42416c45f",
+  "type": "magnet",
+  "supplier": "Bomatec",
+  "url": "https://www.bomatec.com/wp-content/uploads/2019/01/BMFPa-1220A.pdf",
+  "name": "BMFPa-1220A",
+  "Density (kg/m3)": 3720,
+  "Conductivity (S/m)": 10,
+  "Br max. (T)": 0.29,
+  "Br min. (T)": 0.283,
+  "Hcb max. (A/m)": -191e3,
+  "Hcb min. (A/m)": -175e3,
+  "Hcj max. (A/m)": -215e3,
+  "Hcj min. (A/m)": -195e3,
+  "BH max. (J/m3)": 16.8e3,
+  "BH min. (J/m3)": 16.3e3,
+  "Tc Br (%/C)": -0.185,
+  "Tc Hcb (%/C)": 0.17,
+  "Tc Conductivity (%/C)": 0,
+  "Possible Magnetisation": ["diametral", "radial", "lateral"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

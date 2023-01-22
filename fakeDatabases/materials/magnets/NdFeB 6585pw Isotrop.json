@@ -1,0 +1,31 @@
+{
+  "id": "60f01a0e-3ddd-403a-8c02-2f90cb3a4240",
+  "type": "magnet",
+  "supplier": "MS Schramberg",
+  "url": "https://www.magnete.de/fileadmin/user_upload/Content/Produkte/PDF/Kunststoffgebundene_Gepresste_Magnete/NdFeB_65-85pw_D.pdf",
+  "name": "NdFeB 65/85pw",
+  "Density (kg/m3)": 6000,
+  "Conductivity (S/m)": 500,
+  "Br max. (T)": 0.65,
+  "Br min. (T)": 0.61,
+  "Hcb max. (A/m)": -460e3,
+  "Hcb min. (A/m)": -420e3,
+  "Hcj max. (A/m)": -950e3,
+  "Hcj min. (A/m)": -850e3,
+  "BH max. (J/m3)": 72e3,
+  "BH min. (J/m3)": 65e3,
+  "Tc Br (%/C)": -0.13,
+  "Tc Hcb (%/C)": -0.4,
+  "Tc Conductivity (%/C)": -0.4041,
+  "Curie Temperature (C)": 305,
+  "Hcj (A/m)": [],
+  "J (T)": [],
+  "Possible Magnetisation": ["diametral","radial","lateral"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ff3959a9-d631-4a4d-9200-4a6d4d557bdb",
+  "type": "magnet",
+  "supplier": "Toda Kogyo",
+  "url": "",
+  "name": "Toda TP-S75 (Ferrite PPS)",
+  "Density (kg/m3)": 3580,
+  "Conductivity (S/m)": 10,
+  "Br max. (T)": 0.27,
+  "Br min. (T)": 0.258,
+  "Hcb max. (A/m)": -191e3,
+  "Hcb min. (A/m)": -167e3,
+  "Hcj max. (A/m)": -248e3,
+  "Hcj min. (A/m)": -210e3,
+  "BH max. (J/m3)": 14.2e3,
+  "BH min. (J/m3)": 13.1e3,
+  "Tc Br (%/C)": -0.2,
+  "Tc Hcb (%/C)": 0.17,
+  "Tc Conductivity (%/C)": 0,
+  "Curie Temperature (C)": 285,
+  "Possible Magnetisation": ["diametral","radial", "lateral"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

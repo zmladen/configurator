@@ -1,0 +1,30 @@
+{
+  "id": "b57b2705-b4b5-4662-8a2a-8926581388db",
+  "type": "magnet",
+  "supplier": "MS Schramberg",
+  "url": "https://www.magnete.de/de.html",
+  "name": "NdFeB 43/80p",
+  "Density (kg/m3)": 5000,
+  "Conductivity (S/m)": 100,
+  "Br max. (T)": 0.525,
+  "Br min. (T)": 0.505,
+  "Hcb max. (A/m)": -370e3,
+  "Hcb min. (A/m)": -340e3,
+  "Hcj max. (A/m)": -1000e3,
+  "Hcj min. (A/m)": -80e3,
+  "BH max. (J/m3)": 49.0e3,
+  "BH min. (J/m3)": 43.0e3,
+  "µr_theory": 1.15,
+  "Tc Br (%/C)": -0.13,
+  "Tc Hcb (%/C)": -0.4,
+  "Tc Conductivity (%/C)": -0.4041,
+  "Curie Temperature (C)": 305,
+  "Possible Magnetisation": ["diametral","radial", "lateral"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2a31186b-3b0f-45ee-a97c-dda825200149",
+  "type": "magnet",
+  "supplier": "tbd",
+  "url": "",
+  "name": "HF 28/24",
+  "Density (kg/m3)": 5000,
+  "Conductivity (S/m)": 10,
+  "Br max. (T)": 0.38,
+  "Br min. (T)": 0.38,
+  "Hcb max. (A/m)": 0,
+  "Hcb min. (A/m)": 0,
+  "Hcj max. (A/m)": -240e3,
+  "Hcj min. (A/m)": -240e3,
+  "BH max. (J/m3)": 28.0e3,
+  "BH min. (J/m3)": 28.0e3,
+  "µr_theory": 1.05,
+  "Tc Br (%/C)": -0.2,
+  "Tc Hcb (%/C)": 0.35,
+  "Tc Conductivity (%/C)": 0.4041,
+  "Curie Temperature (C)": 700,
+  "Possible Magnetisation": ["diametral", "radial"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

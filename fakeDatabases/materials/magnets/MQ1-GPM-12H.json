@@ -1,0 +1,29 @@
+{
+  "id": "5979f745-1d57-4ce5-a814-c7f8d279e998",
+  "type": "magnet",
+  "supplier": "Galaxymagnets",
+  "url": "http://www.galaxymagnets.com/english/",
+  "name": "MQ1-GPM-12H",
+  "Density (kg/m3)": 6100,
+  "Conductivity (S/m)": 10,
+  "Br max. (T)": 0.80,
+  "Br min. (T)": 0.74,
+  "Hcb max. (A/m)": -520e3,
+  "Hcb min. (A/m)": -440e3,
+  "Hcj max. (A/m)": -880e3,
+  "Hcj min. (A/m)": -760e3,
+  "BH max. (J/m3)": 96e3,
+  "BH min. (J/m3)": 88e3,
+  "Tc Br (%/C)": -0.11,
+  "Tc Hcb (%/C)": -0.5,
+  "Tc Conductivity (%/C)": -0.42,
+  "Curie Temperature (C)": 306,
+  "Possible Magnetisation": ["diametral", "radial", "lateral"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

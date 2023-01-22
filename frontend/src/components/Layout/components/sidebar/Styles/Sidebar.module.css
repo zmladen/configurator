@@ -1,0 +1,17 @@
+.Sidebar {
+  background-color: #1e40af;
+  height: 100%;
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 15px;
+  justify-content: center;
+}
+
+.Header img {
+  margin-right: 10px;
+}

@@ -1,0 +1,16 @@
+{
+  "id": "62223219-1455-4ee6-9896-3b5a24ed3f13",
+  "type": "non-ferrous metal",
+  "supplier": "tbd",
+  "url": "",
+  "name": "Aluminium_Alloy_6061",
+  "Density (kg/m3)": 2700,
+  "Stacking Factor (%)": 100,
+  "Conductivity (S/m)": 25e6,
+  "Tc Conductivity (%/C)": -0.4041,
+  "ur": 1,
+  "H (A/m)": [],
+  "B (T)": [],
+  "Losses": [],
+  "Thermal Coefficient of Linear Expansion (1/K)": 0
+}

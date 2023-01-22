@@ -1,0 +1,29 @@
+{
+  "id": "44b90194-6c2d-423c-b70b-8c4c958b7916",
+  "type": "magnet",
+  "supplier": " ",
+  "url": " ",
+  "name": "42M",
+  "Density (kg/m3)": 7500,
+  "Conductivity (S/m)": 555.6e3,
+  "Br max. (T)": 1.35,
+  "Br min. (T)": 1.28,
+  "Hcb max. (A/m)": -1027e3,
+  "Hcb min. (A/m)": -860e3,
+  "Hcj max. (A/m)": -1114e3,
+  "Hcj min. (A/m)": -955e3,
+  "BH max. (J/m3)": 350e3,
+  "BH min. (J/m3)": 318e3,
+  "Tc Br (%/C)": -0.12,
+  "Tc Hcb (%/C)": -0.75,
+  "Tc Conductivity (%/C)": -0.4041,
+  "Curie Temperature (C)": 310,
+  "Possible Magnetisation": ["diametral", "radial"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

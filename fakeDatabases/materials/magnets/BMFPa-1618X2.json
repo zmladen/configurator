@@ -1,0 +1,28 @@
+{
+  "id": "861a8055-38fa-4573-97ca-7d9eea1880c6",
+  "type": "magnet",
+  "supplier": "Bomatec",
+  "url": "",
+  "name": "BMFPa-1618X2",
+  "Density (kg/m3)": 3600,
+  "Conductivity (S/m)": 10,
+  "Br max. (T)": 0.268,
+  "Br min. (T)": 0.261,
+  "Hcb max. (A/m)": -195e3,
+  "Hcb min. (A/m)": -179e3,
+  "Hcj max. (A/m)": -236e3,
+  "Hcj min. (A/m)": -211e3,
+  "BH max. (J/m3)": 14.15e3,
+  "BH min. (J/m3)": 13.4e3,
+  "Tc Br (%/C)": -0.185,
+  "Tc Hcb (%/C)": 0.17,
+  "Tc Conductivity (%/C)": 0,
+  "Possible Magnetisation": ["diametral", "radial", "lateral"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

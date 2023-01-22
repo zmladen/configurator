@@ -1,0 +1,15 @@
+{
+  "id": "0e042161-8b02-4a18-b316-1ba09cd988af",
+  "type": "non-ferrous metal",
+  "supplier": "tbd",
+  "url": "",
+  "name": "Copper",
+  "Density (kg/m3)": 7700,
+  "Stacking Factor (%)": 100,
+  "Conductivity (S/m)": 58e6,
+  "Tc Conductivity (%/C)": -0.4041,
+  "ur": 1,
+  "H (A/m)": [],
+  "B (T)": [],
+  "Losses": []
+}

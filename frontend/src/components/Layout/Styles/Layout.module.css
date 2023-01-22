@@ -1,0 +1,24 @@
+.layout {
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  grid-template-rows: 1fr 100px;
+  min-height: 100vh;
+}
+
+.header {
+  /* background-color: #93c5fd; */
+  /* grid-area: 1 / 1 / 2 / 3; */
+}
+
+.aside {
+  grid-area: 1 / 1 / 1 / 1;
+}
+
+.main {
+  grid-area: 1 / 2 / 1 / 2;
+}
+
+.footer {
+  background-color: #92400e;
+  grid-area: 2 / 1 / 2 / 3;
+}

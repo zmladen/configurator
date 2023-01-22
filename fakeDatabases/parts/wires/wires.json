@@ -1,0 +1,674 @@
+{
+  "wires": [
+    {
+      "name": "0.05",
+      "Conductor Diameter (mm)": 0.05,
+      "Isolation Diameter (mm)": 0.068,
+      "Isolation Diameter G1 min (mm)": 0.056,
+      "Isolation Diameter G1 max (mm)": 0.062,
+      "Isolation Diameter G2 min (mm)": 0.062,
+      "Isolation Diameter G2 max (mm)": 0.068,
+      "id": "21f65b53-10a1-4770-86a1-fcb68cfc4fc4"
+    },
+    {
+      "name": "0.056",
+      "Conductor Diameter (mm)": 0.056,
+      "Isolation Diameter (mm)": 0.076,
+      "Isolation Diameter G1 min (mm)": 0.062,
+      "Isolation Diameter G1 max (mm)": 0.069,
+      "Isolation Diameter G2 min (mm)": 0.068,
+      "Isolation Diameter G2 max (mm)": 0.076,
+      "id": "6d9d0056-729b-4301-8176-f72c00bfd050"
+    },
+    {
+      "name": "0.060",
+      "Conductor Diameter (mm)": 0.06,
+      "Isolation Diameter (mm)": 0.081,
+      "Isolation Diameter G1 min (mm)": 0.066,
+      "Isolation Diameter G1 max (mm)": 0.074,
+      "Isolation Diameter G2 min (mm)": 0.073,
+      "Isolation Diameter G2 max (mm)": 0.081,
+      "id": "bba545d6-a95e-4e8d-80d3-5d1a419a021e"
+    },
+    {
+      "name": "0.063",
+      "Conductor Diameter (mm)": 0.063,
+      "Isolation Diameter (mm)": 0.085,
+      "Isolation Diameter G1 min (mm)": 0.068,
+      "Isolation Diameter G1 max (mm)": 0.078,
+      "Isolation Diameter G2 min (mm)": 0.077,
+      "Isolation Diameter G2 max (mm)": 0.085,
+      "id": "5720fcb2-e574-42bd-80da-951544d2418f"
+    },
+    {
+      "name": "0.071",
+      "Conductor Diameter (mm)": 0.071,
+      "Isolation Diameter (mm)": 0.095,
+      "Isolation Diameter G1 min (mm)": 0.076,
+      "Isolation Diameter G1 max (mm)": 0.088,
+      "Isolation Diameter G2 min (mm)": 0.087,
+      "Isolation Diameter G2 max (mm)": 0.095,
+      "id": "70b76f2c-9293-4c5e-b21e-79d60dbe1c07"
+    },
+    {
+      "name": "0.080",
+      "Conductor Diameter (mm)": 0.08,
+      "Isolation Diameter (mm)": 0.105,
+      "Isolation Diameter G1 min (mm)": 0.088,
+      "Isolation Diameter G1 max (mm)": 0.098,
+      "Isolation Diameter G2 min (mm)": 0.099,
+      "Isolation Diameter G2 max (mm)": 0.105,
+      "id": "2415c12c-9889-4331-96d8-c374d25b6fd4"
+    },
+    {
+      "name": "0.090",
+      "Conductor Diameter (mm)": 0.09,
+      "Isolation Diameter (mm)": 0.117,
+      "Isolation Diameter G1 min (mm)": 0.098,
+      "Isolation Diameter G1 max (mm)": 0.11,
+      "Isolation Diameter G2 min (mm)": 0.109,
+      "Isolation Diameter G2 max (mm)": 0.117,
+      "id": "518caeac-1d68-4cad-82c2-a6c9a90e38df"
+    },
+    {
+      "name": "0.100",
+      "Conductor Diameter (mm)": 0.1,
+      "Isolation Diameter (mm)": 0.129,
+      "Isolation Diameter G1 min (mm)": 0.109,
+      "Isolation Diameter G1 max (mm)": 0.121,
+      "Isolation Diameter G2 min (mm)": 0.121,
+      "Isolation Diameter G2 max (mm)": 0.129,
+      "id": "6c3f23f1-5dea-417e-97cb-29dab7a3f3d9"
+    },
+    {
+      "name": "0.106",
+      "Conductor Diameter (mm)": 0.106,
+      "Isolation Diameter (mm)": 0.136,
+      "Isolation Diameter G1 min (mm)": 0.115,
+      "Isolation Diameter G1 max (mm)": 0.127,
+      "Isolation Diameter G2 min (mm)": 0.128,
+      "Isolation Diameter G2 max (mm)": 0.136,
+      "id": "c875a930-a470-4b50-9a4b-b1b23843bf0f"
+    },
+    {
+      "name": "0.112",
+      "Conductor Diameter (mm)": 0.112,
+      "Isolation Diameter (mm)": 0.143,
+      "Isolation Diameter G1 min (mm)": 0.122,
+      "Isolation Diameter G1 max (mm)": 0.134,
+      "Isolation Diameter G2 min (mm)": 0.135,
+      "Isolation Diameter G2 max (mm)": 0.143,
+      "id": "a69c1caf-7250-43ad-ad8e-88af04542537"
+    },
+    {
+      "name": "0.118",
+      "Conductor Diameter (mm)": 0.118,
+      "Isolation Diameter (mm)": 0.15,
+      "Isolation Diameter G1 min (mm)": 0.128,
+      "Isolation Diameter G1 max (mm)": 0.142,
+      "Isolation Diameter G2 min (mm)": 0.142,
+      "Isolation Diameter G2 max (mm)": 0.15,
+      "id": "2202eb5f-b713-42a9-b659-39d30a7765f7"
+    },
+    {
+      "name": "0.125",
+      "Conductor Diameter (mm)": 0.125,
+      "Isolation Diameter (mm)": 0.159,
+      "Isolation Diameter G1 min (mm)": 0.135,
+      "Isolation Diameter G1 max (mm)": 0.149,
+      "Isolation Diameter G2 min (mm)": 0.147,
+      "Isolation Diameter G2 max (mm)": 0.159,
+      "id": "9a813e32-de08-4423-8306-923b4c09d523"
+    },
+    {
+      "name": "0.132",
+      "Conductor Diameter (mm)": 0.132,
+      "Isolation Diameter (mm)": 0.167,
+      "Isolation Diameter G1 min (mm)": 0.143,
+      "Isolation Diameter G1 max (mm)": 0.157,
+      "Isolation Diameter G2 min (mm)": 0.157,
+      "Isolation Diameter G2 max (mm)": 0.167,
+      "id": "6dc40269-ae51-425f-90e8-00621e3b42ec"
+    },
+    {
+      "name": "0.140",
+      "Conductor Diameter (mm)": 0.14,
+      "Isolation Diameter (mm)": 0.176,
+      "Isolation Diameter G1 min (mm)": 0.152,
+      "Isolation Diameter G1 max (mm)": 0.166,
+      "Isolation Diameter G2 min (mm)": 0.164,
+      "Isolation Diameter G2 max (mm)": 0.176,
+      "id": "d4366e60-05be-4ce4-a693-a178dcb23add"
+    },
+    {
+      "name": "0.150",
+      "Conductor Diameter (mm)": 0.15,
+      "Isolation Diameter (mm)": 0.187,
+      "Isolation Diameter G1 min (mm)": 0.163,
+      "Isolation Diameter G1 max (mm)": 0.177,
+      "Isolation Diameter G2 min (mm)": 0.174,
+      "Isolation Diameter G2 max (mm)": 0.187,
+      "id": "c772d710-af90-4878-9c14-1eb7ce45e2c4"
+    },
+    {
+      "name": "0.160",
+      "Conductor Diameter (mm)": 0.16,
+      "Isolation Diameter (mm)": 0.199,
+      "Isolation Diameter G1 min (mm)": 0.173,
+      "Isolation Diameter G1 max (mm)": 0.187,
+      "Isolation Diameter G2 min (mm)": 0.185,
+      "Isolation Diameter G2 max (mm)": 0.199,
+      "id": "9c6c754f-8d81-48ec-a378-776fc76c1082"
+    },
+    {
+      "name": "0.170",
+      "Conductor Diameter (mm)": 0.17,
+      "Isolation Diameter (mm)": 0.21,
+      "Isolation Diameter G1 min (mm)": 0.184,
+      "Isolation Diameter G1 max (mm)": 0.198,
+      "Isolation Diameter G2 min (mm)": 0.196,
+      "Isolation Diameter G2 max (mm)": 0.21,
+      "id": "47e8b4aa-787a-484a-9ae3-3d7f047c9e40"
+    },
+    {
+      "name": "0.180",
+      "Conductor Diameter (mm)": 0.18,
+      "Isolation Diameter (mm)": 0.222,
+      "Isolation Diameter G1 min (mm)": 0.195,
+      "Isolation Diameter G1 max (mm)": 0.209,
+      "Isolation Diameter G2 min (mm)": 0.206,
+      "Isolation Diameter G2 max (mm)": 0.222,
+      "id": "6481f220-ab61-4315-b893-52f4e34f4da3"
+    },
+    {
+      "name": "0.190",
+      "Conductor Diameter (mm)": 0.19,
+      "Isolation Diameter (mm)": 0.233,
+      "Isolation Diameter G1 min (mm)": 0.204,
+      "Isolation Diameter G1 max (mm)": 0.22,
+      "Isolation Diameter G2 min (mm)": 0.217,
+      "Isolation Diameter G2 max (mm)": 0.233,
+      "id": "8fdf32bb-5f31-4fa3-a30f-8bdda4ea0e44"
+    },
+    {
+      "name": "0.200",
+      "Conductor Diameter (mm)": 0.2,
+      "Isolation Diameter (mm)": 0.245,
+      "Isolation Diameter G1 min (mm)": 0.216,
+      "Isolation Diameter G1 max (mm)": 0.23,
+      "Isolation Diameter G2 min (mm)": 0.227,
+      "Isolation Diameter G2 max (mm)": 0.245,
+      "id": "957d995e-e309-49ce-af1c-db956d7269a2"
+    },
+    {
+      "name": "0.212",
+      "Conductor Diameter (mm)": 0.212,
+      "Isolation Diameter (mm)": 0.258,
+      "Isolation Diameter G1 min (mm)": 0.229,
+      "Isolation Diameter G1 max (mm)": 0.243,
+      "Isolation Diameter G2 min (mm)": 0.24,
+      "Isolation Diameter G2 max (mm)": 0.258,
+      "id": "81980a3b-b21e-4286-8562-4c4f9476d580"
+    },
+    {
+      "name": "0.224",
+      "Conductor Diameter (mm)": 0.224,
+      "Isolation Diameter (mm)": 0.272,
+      "Isolation Diameter G1 min (mm)": 0.242,
+      "Isolation Diameter G1 max (mm)": 0.256,
+      "Isolation Diameter G2 min (mm)": 0.252,
+      "Isolation Diameter G2 max (mm)": 0.272,
+      "id": "ff2d169f-1ff2-4aaf-9834-7afc4c9a454c"
+    },
+    {
+      "name": "0.236",
+      "Conductor Diameter (mm)": 0.236,
+      "Isolation Diameter (mm)": 0.286,
+      "Isolation Diameter G1 min (mm)": 0.254,
+      "Isolation Diameter G1 max (mm)": 0.268,
+      "Isolation Diameter G2 min (mm)": 0.266,
+      "Isolation Diameter G2 max (mm)": 0.286,
+      "id": "d59bd98f-597f-4225-9bfb-f6724d083342"
+    },
+    {
+      "name": "0.250",
+      "Conductor Diameter (mm)": 0.25,
+      "Isolation Diameter (mm)": 0.301,
+      "Isolation Diameter G1 min (mm)": 0.268,
+      "Isolation Diameter G1 max (mm)": 0.284,
+      "Isolation Diameter G2 min (mm)": 0.279,
+      "Isolation Diameter G2 max (mm)": 0.301,
+      "id": "cd47c9a1-bfea-4674-8103-b7f37707eaa3"
+    },
+    {
+      "name": "0.265",
+      "Conductor Diameter (mm)": 0.265,
+      "Isolation Diameter (mm)": 0.317,
+      "Isolation Diameter G1 min (mm)": 0.285,
+      "Isolation Diameter G1 max (mm)": 0.299,
+      "Isolation Diameter G2 min (mm)": 0.295,
+      "Isolation Diameter G2 max (mm)": 0.317,
+      "id": "cdca25a8-ee4e-4ad7-9e1f-b03f18fedd2a"
+    },
+    {
+      "name": "0.280",
+      "Conductor Diameter (mm)": 0.28,
+      "Isolation Diameter (mm)": 0.334,
+      "Isolation Diameter G1 min (mm)": 0.301,
+      "Isolation Diameter G1 max (mm)": 0.315,
+      "Isolation Diameter G2 min (mm)": 0.31,
+      "Isolation Diameter G2 max (mm)": 0.334,
+      "id": "4b110ef5-6768-4aff-ab58-52cb45f0e403"
+    },
+    {
+      "name": "0.300",
+      "Conductor Diameter (mm)": 0.3,
+      "Isolation Diameter (mm)": 0.355,
+      "Isolation Diameter G1 min (mm)": 0.322,
+      "Isolation Diameter G1 max (mm)": 0.336,
+      "Isolation Diameter G2 min (mm)": 0.333,
+      "Isolation Diameter G2 max (mm)": 0.355,
+      "id": "13011848-2588-4391-939e-d264e2d0445c"
+    },
+    {
+      "name": "0.315",
+      "Conductor Diameter (mm)": 0.315,
+      "Isolation Diameter (mm)": 0.371,
+      "Isolation Diameter G1 min (mm)": 0.336,
+      "Isolation Diameter G1 max (mm)": 0.352,
+      "Isolation Diameter G2 min (mm)": 0.349,
+      "Isolation Diameter G2 max (mm)": 0.371,
+      "id": "75950efe-0149-4634-9a00-1f6db2ee46c2"
+    },
+    {
+      "name": "0.335",
+      "Conductor Diameter (mm)": 0.335,
+      "Isolation Diameter (mm)": 0.392,
+      "Isolation Diameter G1 min (mm)": 0.358,
+      "Isolation Diameter G1 max (mm)": 0.374,
+      "Isolation Diameter G2 min (mm)": 0.37,
+      "Isolation Diameter G2 max (mm)": 0.392,
+      "id": "1a7e2a30-7d35-4747-b22e-87d82195f6f7"
+    },
+    {
+      "name": "0.355",
+      "Conductor Diameter (mm)": 0.355,
+      "Isolation Diameter (mm)": 0.414,
+      "Isolation Diameter G1 min (mm)": 0.377,
+      "Isolation Diameter G1 max (mm)": 0.395,
+      "Isolation Diameter G2 min (mm)": 0.392,
+      "Isolation Diameter G2 max (mm)": 0.414,
+      "id": "20e59162-3901-401a-884e-648b53ee9267"
+    },
+    {
+      "name": "0.375",
+      "Conductor Diameter (mm)": 0.375,
+      "Isolation Diameter (mm)": 0.435,
+      "Isolation Diameter G1 min (mm)": 0.398,
+      "Isolation Diameter G1 max (mm)": 0.416,
+      "Isolation Diameter G2 min (mm)": 0.413,
+      "Isolation Diameter G2 max (mm)": 0.435,
+      "id": "433cc4fd-4306-4bb6-a631-fba46c877732"
+    },
+    {
+      "name": "0.400",
+      "Conductor Diameter (mm)": 0.4,
+      "Isolation Diameter (mm)": 0.462,
+      "Isolation Diameter G1 min (mm)": 0.424,
+      "Isolation Diameter G1 max (mm)": 0.442,
+      "Isolation Diameter G2 min (mm)": 0.438,
+      "Isolation Diameter G2 max (mm)": 0.462,
+      "id": "c4865887-fe3b-460b-ab72-15904ec5853e"
+    },
+    {
+      "name": "0.425",
+      "Conductor Diameter (mm)": 0.425,
+      "Isolation Diameter (mm)": 0.489,
+      "Isolation Diameter G1 min (mm)": 0.45,
+      "Isolation Diameter G1 max (mm)": 0.468,
+      "Isolation Diameter G2 min (mm)": 0.465,
+      "Isolation Diameter G2 max (mm)": 0.489,
+      "id": "3a9e65c9-65f2-458a-be5b-49bc664a3f40"
+    },
+    {
+      "name": "0.450",
+      "Conductor Diameter (mm)": 0.45,
+      "Isolation Diameter (mm)": 0.516,
+      "Isolation Diameter G1 min (mm)": 0.475,
+      "Isolation Diameter G1 max (mm)": 0.495,
+      "Isolation Diameter G2 min (mm)": 0.49,
+      "Isolation Diameter G2 max (mm)": 0.516,
+      "id": "58b8098e-22f9-4719-8097-67d2b737e150"
+    },
+    {
+      "name": "0.475",
+      "Conductor Diameter (mm)": 0.475,
+      "Isolation Diameter (mm)": 0.543,
+      "Isolation Diameter G1 min (mm)": 0.5,
+      "Isolation Diameter G1 max (mm)": 0.522,
+      "Isolation Diameter G2 min (mm)": 0.517,
+      "Isolation Diameter G2 max (mm)": 0.543,
+      "id": "be198039-ef00-4e83-84f9-c182e95e3489"
+    },
+    {
+      "name": "0.500",
+      "Conductor Diameter (mm)": 0.5,
+      "Isolation Diameter (mm)": 0.569,
+      "Isolation Diameter G1 min (mm)": 0.526,
+      "Isolation Diameter G1 max (mm)": 0.548,
+      "Isolation Diameter G2 min (mm)": 0.543,
+      "Isolation Diameter G2 max (mm)": 0.569,
+      "id": "54bde6dd-b099-4162-807f-715d81ef1c5c"
+    },
+    {
+      "name": "0.530",
+      "Conductor Diameter (mm)": 0.53,
+      "Isolation Diameter (mm)": 0.601,
+      "Isolation Diameter G1 min (mm)": 0.556,
+      "Isolation Diameter G1 max (mm)": 0.58,
+      "Isolation Diameter G2 min (mm)": 0.575,
+      "Isolation Diameter G2 max (mm)": 0.601,
+      "id": "93a70442-e259-4caa-bb3c-57805933c473"
+    },
+    {
+      "name": "0.560",
+      "Conductor Diameter (mm)": 0.56,
+      "Isolation Diameter (mm)": 0.632,
+      "Isolation Diameter G1 min (mm)": 0.587,
+      "Isolation Diameter G1 max (mm)": 0.611,
+      "Isolation Diameter G2 min (mm)": 0.606,
+      "Isolation Diameter G2 max (mm)": 0.632,
+      "id": "6eb2e0fa-cd7d-47f7-bfab-a50680d82b00"
+    },
+    {
+      "name": "0.600",
+      "Conductor Diameter (mm)": 0.6,
+      "Isolation Diameter (mm)": 0.674,
+      "Isolation Diameter G1 min (mm)": 0.626,
+      "Isolation Diameter G1 max (mm)": 0.654,
+      "Isolation Diameter G2 min (mm)": 0.648,
+      "Isolation Diameter G2 max (mm)": 0.674,
+      "id": "3dec08b6-3fee-4aea-96f4-551b32093326"
+    },
+    {
+      "name": "0.630",
+      "Conductor Diameter (mm)": 0.63,
+      "Isolation Diameter (mm)": 0.706,
+      "Isolation Diameter G1 min (mm)": 0.658,
+      "Isolation Diameter G1 max (mm)": 0.684,
+      "Isolation Diameter G2 min (mm)": 0.678,
+      "Isolation Diameter G2 max (mm)": 0.706,
+      "id": "edbcd17c-855a-47d4-946a-211191490552"
+    },
+    {
+      "name": "0.670",
+      "Conductor Diameter (mm)": 0.67,
+      "Isolation Diameter (mm)": 0.748,
+      "Isolation Diameter G1 min (mm)": 0.698,
+      "Isolation Diameter G1 max (mm)": 0.728,
+      "Isolation Diameter G2 min (mm)": 0.72,
+      "Isolation Diameter G2 max (mm)": 0.748,
+      "id": "5aa4d8ca-5ad6-4d4f-aab6-362c2b8b6cbf"
+    },
+    {
+      "name": "0.710",
+      "Conductor Diameter (mm)": 0.71,
+      "Isolation Diameter (mm)": 0.79,
+      "Isolation Diameter G1 min (mm)": 0.739,
+      "Isolation Diameter G1 max (mm)": 0.767,
+      "Isolation Diameter G2 min (mm)": 0.762,
+      "Isolation Diameter G2 max (mm)": 0.79,
+      "id": "71b2680c-dd25-4b58-8478-5ee8ba25b743"
+    },
+    {
+      "name": "0.750",
+      "Conductor Diameter (mm)": 0.75,
+      "Isolation Diameter (mm)": 0.832,
+      "Isolation Diameter G1 min (mm)": 0.779,
+      "Isolation Diameter G1 max (mm)": 0.809,
+      "Isolation Diameter G2 min (mm)": 0.802,
+      "Isolation Diameter G2 max (mm)": 0.832,
+      "id": "a42f2f4a-ae33-4b13-92e4-239c0c13d2fa"
+    },
+    {
+      "name": "0.800",
+      "Conductor Diameter (mm)": 0.8,
+      "Isolation Diameter (mm)": 0.885,
+      "Isolation Diameter G1 min (mm)": 0.829,
+      "Isolation Diameter G1 max (mm)": 0.861,
+      "Isolation Diameter G2 min (mm)": 0.853,
+      "Isolation Diameter G2 max (mm)": 0.885,
+      "id": "26a896af-e073-4ef8-9673-1dfb4c3859b4"
+    },
+    {
+      "name": "0.850",
+      "Conductor Diameter (mm)": 0.85,
+      "Isolation Diameter (mm)": 0.937,
+      "Isolation Diameter G1 min (mm)": 0.879,
+      "Isolation Diameter G1 max (mm)": 0.913,
+      "Isolation Diameter G2 min (mm)": 0.905,
+      "Isolation Diameter G2 max (mm)": 0.937,
+      "id": "116e6cd4-5568-4493-bbba-c1a0b1d8cbf1"
+    },
+    {
+      "name": "0.900",
+      "Conductor Diameter (mm)": 0.9,
+      "Isolation Diameter (mm)": 0.99,
+      "Isolation Diameter G1 min (mm)": 0.929,
+      "Isolation Diameter G1 max (mm)": 0.965,
+      "Isolation Diameter G2 min (mm)": 0.956,
+      "Isolation Diameter G2 max (mm)": 0.99,
+      "id": "6ff3d7b3-7142-476f-9aaa-195ae2814944"
+    },
+    {
+      "name": "0.950",
+      "Conductor Diameter (mm)": 0.95,
+      "Isolation Diameter (mm)": 1.041,
+      "Isolation Diameter G1 min (mm)": 0.979,
+      "Isolation Diameter G1 max (mm)": 1.017,
+      "Isolation Diameter G2 min (mm)": 1.007,
+      "Isolation Diameter G2 max (mm)": 1.041,
+      "id": "27ee626f-6e19-48e1-9357-ed476c39d079"
+    },
+    {
+      "name": "1.000",
+      "Conductor Diameter (mm)": 1.0,
+      "Isolation Diameter (mm)": 1.093,
+      "Isolation Diameter G1 min (mm)": 1.03,
+      "Isolation Diameter G1 max (mm)": 1.068,
+      "Isolation Diameter G2 min (mm)": 1.059,
+      "Isolation Diameter G2 max (mm)": 1.093,
+      "id": "f214ecaf-0a9f-4443-8549-93f40e42da7b"
+    },
+    {
+      "name": "1.060",
+      "Conductor Diameter (mm)": 1.06,
+      "Isolation Diameter (mm)": 1.155,
+      "Isolation Diameter G1 min (mm)": 1.09,
+      "Isolation Diameter G1 max (mm)": 1.13,
+      "Isolation Diameter G2 min (mm)": 1.123,
+      "Isolation Diameter G2 max (mm)": 1.155,
+      "id": "05a825c7-198a-4098-9260-830e3a9c4ca0"
+    },
+    {
+      "name": "1.120",
+      "Conductor Diameter (mm)": 1.12,
+      "Isolation Diameter (mm)": 1.217,
+      "Isolation Diameter G1 min (mm)": 1.15,
+      "Isolation Diameter G1 max (mm)": 1.192,
+      "Isolation Diameter G2 min (mm)": 1.181,
+      "Isolation Diameter G2 max (mm)": 1.217,
+      "id": "d937d7e5-d772-4bf1-a69c-99a430e46162"
+    },
+    {
+      "name": "1.180",
+      "Conductor Diameter (mm)": 1.18,
+      "Isolation Diameter (mm)": 1.279,
+      "Isolation Diameter G1 min (mm)": 1.21,
+      "Isolation Diameter G1 max (mm)": 1.254,
+      "Isolation Diameter G2 min (mm)": 1.241,
+      "Isolation Diameter G2 max (mm)": 1.279,
+      "id": "a06c422f-42b4-4c13-acc4-672e7078a8d7"
+    },
+    {
+      "name": "1.250",
+      "Conductor Diameter (mm)": 1.25,
+      "Isolation Diameter (mm)": 1.351,
+      "Isolation Diameter G1 min (mm)": 1.281,
+      "Isolation Diameter G1 max (mm)": 1.325,
+      "Isolation Diameter G2 min (mm)": 1.313,
+      "Isolation Diameter G2 max (mm)": 1.351,
+      "id": "430e7c7d-479e-41a5-ac93-2e7fa37bd001"
+    },
+    {
+      "name": "1.320",
+      "Conductor Diameter (mm)": 1.32,
+      "Isolation Diameter (mm)": 1.423,
+      "Isolation Diameter G1 min (mm)": 1.351,
+      "Isolation Diameter G1 max (mm)": 1.397,
+      "Isolation Diameter G2 min (mm)": 1.385,
+      "Isolation Diameter G2 max (mm)": 1.423,
+      "id": "37467b73-5c28-482b-aca1-a6309e7aeee5"
+    },
+    {
+      "name": "1.400",
+      "Conductor Diameter (mm)": 1.4,
+      "Isolation Diameter (mm)": 1.506,
+      "Isolation Diameter G1 min (mm)": 1.433,
+      "Isolation Diameter G1 max (mm)": 1.497,
+      "Isolation Diameter G2 min (mm)": 1.466,
+      "Isolation Diameter G2 max (mm)": 1.506,
+      "id": "be44f406-a5f8-4cdc-bdab-d0da303bf627"
+    },
+    {
+      "name": "1.500",
+      "Conductor Diameter (mm)": 1.5,
+      "Isolation Diameter (mm)": 1.608,
+      "Isolation Diameter G1 min (mm)": 1.533,
+      "Isolation Diameter G1 max (mm)": 1.581,
+      "Isolation Diameter G2 min (mm)": 1.568,
+      "Isolation Diameter G2 max (mm)": 1.608,
+      "id": "ad6c19f2-c715-4cd3-abcf-360d24b147f3"
+    },
+    {
+      "name": "1.600",
+      "Conductor Diameter (mm)": 1.6,
+      "Isolation Diameter (mm)": 1.711,
+      "Isolation Diameter G1 min (mm)": 1.633,
+      "Isolation Diameter G1 max (mm)": 1.683,
+      "Isolation Diameter G2 min (mm)": 1.669,
+      "Isolation Diameter G2 max (mm)": 1.711,
+      "id": "2cf9cbc5-a428-402e-8b51-2249c520b766"
+    },
+    {
+      "name": "1.700",
+      "Conductor Diameter (mm)": 1.7,
+      "Isolation Diameter (mm)": 1.813,
+      "Isolation Diameter G1 min (mm)": 1.733,
+      "Isolation Diameter G1 max (mm)": 1.785,
+      "Isolation Diameter G2 min (mm)": 1.771,
+      "Isolation Diameter G2 max (mm)": 1.813,
+      "id": "46b1813b-3e2e-41d4-8bec-e51a0b00d4dc"
+    },
+    {
+      "name": "1.800",
+      "Conductor Diameter (mm)": 1.8,
+      "Isolation Diameter (mm)": 1.916,
+      "Isolation Diameter G1 min (mm)": 1.832,
+      "Isolation Diameter G1 max (mm)": 1.888,
+      "Isolation Diameter G2 min (mm)": 1.87,
+      "Isolation Diameter G2 max (mm)": 1.916,
+      "id": "52ded4bd-a9e2-4544-b56b-d9d80d3192ff"
+    },
+    {
+      "name": "1.900",
+      "Conductor Diameter (mm)": 1.9,
+      "Isolation Diameter (mm)": 2.018,
+      "Isolation Diameter G1 min (mm)": 1.932,
+      "Isolation Diameter G1 max (mm)": 1.99,
+      "Isolation Diameter G2 min (mm)": 1.972,
+      "Isolation Diameter G2 max (mm)": 2.018,
+      "id": "2eb7c4c0-e74d-4600-be4d-5d4eb7e6b42a"
+    },
+    {
+      "name": "2.000",
+      "Conductor Diameter (mm)": 2.0,
+      "Isolation Diameter (mm)": 2.12,
+      "Isolation Diameter G1 min (mm)": 2.032,
+      "Isolation Diameter G1 max (mm)": 2.092,
+      "Isolation Diameter G2 min (mm)": 2.074,
+      "Isolation Diameter G2 max (mm)": 2.12,
+      "id": "52c6a633-01a3-4966-a139-ba25f7bee038"
+    },
+    {
+      "name": "2.120",
+      "Conductor Diameter (mm)": 2.12,
+      "Isolation Diameter (mm)": 2.243,
+      "Isolation Diameter G1 min (mm)": 2.154,
+      "Isolation Diameter G1 max (mm)": 2.214,
+      "Isolation Diameter G2 min (mm)": 2.195,
+      "Isolation Diameter G2 max (mm)": 2.243,
+      "id": "00cdab4c-654c-4e8b-9e27-b8ab46a4d003"
+    },
+    {
+      "name": "2.240",
+      "Conductor Diameter (mm)": 2.24,
+      "Isolation Diameter (mm)": 2.366,
+      "Isolation Diameter G1 min (mm)": 2.274,
+      "Isolation Diameter G1 max (mm)": 2.336,
+      "Isolation Diameter G2 min (mm)": 2.316,
+      "Isolation Diameter G2 max (mm)": 2.366,
+      "id": "8723a814-a644-4f48-a968-bcc3c2da1f4d"
+    },
+    {
+      "name": "2.360",
+      "Conductor Diameter (mm)": 2.36,
+      "Isolation Diameter (mm)": 2.488,
+      "Isolation Diameter G1 min (mm)": 2.393,
+      "Isolation Diameter G1 max (mm)": 2.459,
+      "Isolation Diameter G2 min (mm)": 2.436,
+      "Isolation Diameter G2 max (mm)": 2.488,
+      "id": "60835fdb-10b6-485b-a36f-9b2bcc4f3d75"
+    },
+    {
+      "name": "2.500",
+      "Conductor Diameter (mm)": 2.5,
+      "Isolation Diameter (mm)": 2.631,
+      "Isolation Diameter G1 min (mm)": 2.533,
+      "Isolation Diameter G1 max (mm)": 2.601,
+      "Isolation Diameter G2 min (mm)": 2.577,
+      "Isolation Diameter G2 max (mm)": 2.631,
+      "id": "cd1dac1f-27ff-4653-862e-2e7be1d67f11"
+    },
+    {
+      "name": "2.650",
+      "Conductor Diameter (mm)": 2.65,
+      "Isolation Diameter (mm)": 2.784,
+      "Isolation Diameter G1 min (mm)": 2.682,
+      "Isolation Diameter G1 max (mm)": 2.754,
+      "Isolation Diameter G2 min (mm)": 2.728,
+      "Isolation Diameter G2 max (mm)": 2.784,
+      "id": "144e1dfb-2c14-4a5f-8989-dc71cd139a7c"
+    },
+    {
+      "name": "2.800",
+      "Conductor Diameter (mm)": 2.8,
+      "Isolation Diameter (mm)": 2.938,
+      "Isolation Diameter G1 min (mm)": 2.831,
+      "Isolation Diameter G1 max (mm)": 2.907,
+      "Isolation Diameter G2 min (mm)": 2.878,
+      "Isolation Diameter G2 max (mm)": 2.938,
+      "id": "95f0b610-4997-4840-8cbe-05d804c9a93b"
+    },
+    {
+      "name": "3.000",
+      "Conductor Diameter (mm)": 3.0,
+      "Isolation Diameter (mm)": 3.142,
+      "Isolation Diameter G1 min (mm)": 3.03,
+      "Isolation Diameter G1 max (mm)": 3.11,
+      "Isolation Diameter G2 min (mm)": 3.078,
+      "Isolation Diameter G2 max (mm)": 3.142,
+      "id": "5014371b-45c9-4180-abb3-139e565b045d"
+    }
+  ]
+}

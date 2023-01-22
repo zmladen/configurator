@@ -1,0 +1,31 @@
+{
+  "id": "4d7a80fc-d71a-4390-91dd-cdc2ff6e9e79",
+  "type": "magnet",
+  "supplier": "MS Schramberg",
+  "url": "https://www.bomatec.com/wp-content/uploads/2019/01/BMNpi-7668.pdf",
+  "name": "NdFeB 76/68p",
+  "Density (kg/m3)": 6150,
+  "Conductivity (S/m)": 1000000,
+  "Br max. (T)": 0.74,
+  "Br min. (T)": 0.68,
+  "Hcb max. (A/m)": -490e3,
+  "Hcb min. (A/m)": -430e3,
+  "Hcj max. (A/m)": -800e3,
+  "Hcj min. (A/m)": -680e3,
+  "BH max. (J/m3)": 88e3,
+  "BH min. (J/m3)": 76e3,
+  "Tc Br (%/C)": -0.10,
+  "Tc Hcb (%/C)": -0.35,
+  "Tc Conductivity (%/C)": -0.4041,
+  "Curie Temperature (C)": 305,
+  "Hcj (A/m)": [],
+  "J (T)": [],
+  "Possible Magnetisation": ["diametral","radial","lateral"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

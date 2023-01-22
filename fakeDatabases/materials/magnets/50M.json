@@ -1,0 +1,29 @@
+{
+  "id": "0e9f8a06-2b01-4b4b-a3ec-9b5c37a9ac5b",
+  "type": "magnet",
+  "supplier": " ",
+  "url": " ",
+  "name": "50M",
+  "Density (kg/m3)": 7500,
+  "Conductivity (S/m)": 555.6e3,
+  "Br max. (T)": 1.45,
+  "Br min. (T)": 1.4,
+  "Hcb max. (A/m)": -1098e3,
+  "Hcb min. (A/m)": -1035e3,
+  "Hcj max. (A/m)": -1114e3,
+  "Hcj min. (A/m)": -1114e3,
+  "BH max. (J/m3)": 406e3,
+  "BH min. (J/m3)": 382e3,
+  "Tc Br (%/C)": -0.12,
+  "Tc Hcb (%/C)": -0.535,
+  "Tc Conductivity (%/C)": -0.4041,
+  "Curie Temperature (C)": 310,
+  "Possible Magnetisation": ["diametral", "radial"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

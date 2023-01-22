@@ -1,0 +1,32 @@
+{
+  "id": "8394cdf4-9870-4f0d-8024-4aabb3514011",
+  "type": "brush",
+  "supplier": "Carbotech",
+  "url": "",
+  "name": "CM281",
+  "Width (mm)": 4.8,
+  "Height (mm)": 8.0,
+  "Length (mm)": 15.5,
+  "Composition": {
+    "C (%)":    "75",
+    "Cu (%)":   "20",
+    "Ag (%)":   null,
+    "MoS2 (%)": "5",
+    "Sliding & polishing Means (%)": null,
+    "Ashes (%)": null
+  },
+  "Technology":"perpendicular",
+  "Electrical Resistivity (Ohm*m)": 2e-6,
+  "Tc Conductivity (%/C)": 	null,
+  "Density (kg/m3)": 		"2200±150",
+  "Breaking Force (N)":		"≥ 65" ,
+  "Rockwell-Hardness / HR": null,
+  "Max. Current-Density (A)": null,
+  "Contacting Voltage Drop (V)": 0.5,
+  "Friction Coefficient": 	0.1,
+  "Max. Temperature (C)": 	null,
+  "Thermal expansion coefficient α (1/K)": 4e-6,
+  "Remarks": "Technology can be axial, radial or tangential. Electrical resistivity depends on the technology.",
+  "Resistance (Ohm)": 6.5e-3,
+  "Resistance Tc (%/C)": -0.4041
+}

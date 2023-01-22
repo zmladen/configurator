@@ -1,0 +1,31 @@
+{
+  "id": "956e0116-811f-4f50-be0d-b1cf1531aaef",
+  "type": "magnet",
+  "supplier": "Neo Magnequench",
+  "url": "https://mqitechnology.com/wp-content/uploads/2018/10/mqp-17-9-20440-070.pdf",
+  "name": "NdFeB 80/70p",
+  "Density (kg/m3)": 6150,
+  "Conductivity (S/m)": 50000,
+  "Br max. (T)": 0.74,
+  "Br min. (T)": 0.7,
+  "Hcb max. (A/m)": -490e3,
+  "Hcb min. (A/m)": -464e3,
+  "Hcj max. (A/m)": -770e3,
+  "Hcj min. (A/m)": -700e3,
+  "BH max. (J/m3)": 88e3,
+  "BH min. (J/m3)": 80e3,
+  "Tc Br (%/C)": -0.10,
+  "Tc Hcb (%/C)": -0.35,
+  "Tc Conductivity (%/C)": -0.4041,
+  "Curie Temperature (C)": 305,
+  "Hcj (A/m)": [],
+  "J (T)": [],
+  "Possible Magnetisation": ["diametral","radial","lateral"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

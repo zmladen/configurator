@@ -1,0 +1,27 @@
+{
+  "id": "37332374-34dd-4390-b6b0-4e9de4bca0a5",
+  "type": "brush",
+  "supplier": "Carbotech",
+  "url": "",
+  "name": "CM235",
+  "Composition": {
+    "C (%)": "74.5±4",
+    "Cu (%)": "21±3",
+    "Ag (%)": "2200±150",
+    "MoS2 (%)": "2200±150",
+    "Sliding & polishing Means (%)": "3.5±1",
+    "Ashes (%)": "≤1"
+  },
+  "Technology":"radial",
+  "Electrical Resistivity (Ohm*m)": 30e-6,
+  "Tc Conductivity (%/C)": 0.01,
+  "Density (kg/m3)": 2200,
+  "Rockwell-Hardness / HR": null,
+  "Max. Current-Density (A)": null,
+  "Contacting Voltage Drop (V)": 0.5,
+  "Friction Coefficient": 0.1,
+  "Max. Temperature (C)": null,
+  "Remarks": "Technology can be axial, radial or tangential. Electrical resistivity depends on the technology.",
+  "Resistance (Ohm)": 0,
+  "Resistance Tc (%/C)": -0.4041
+}

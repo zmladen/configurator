@@ -1,0 +1,15 @@
+{
+  "id": "99dc022d-1d19-429b-b18c-5db7fcb62865",
+  "type": "non-ferrous metal",
+  "supplier": "tbd",
+  "url": "",
+  "name": "Stainless Steel (EN 1.4401, AISI 316)",
+  "Density (kg/m3)": 8055,
+  "Stacking Factor (%)": 100,
+  "Conductivity (S/m)": 1.33e6,
+  "Tc Conductivity (%/C)": -0.4041,
+  "ur": 1,
+  "H (A/m)": [],
+  "B (T)": [],
+  "Losses": []
+}

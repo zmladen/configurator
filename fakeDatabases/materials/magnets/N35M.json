@@ -1,0 +1,29 @@
+{
+  "id": "4906dd7d-8584-43d9-bc4c-2fce83384853",
+  "type": "magnet",
+  "supplier": "Arnoldmagnetics",
+  "url": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/11/N35M-151021.pdf",
+  "name": "N35M",
+  "Density (kg/m3)": 7500,
+  "Conductivity (S/m)": 555.6e3,
+  "Br max. (T)": 1.25,
+  "Br min. (T)": 1.17,
+  "Hcb max. (A/m)": -955e3,
+  "Hcb min. (A/m)": -868e3,
+  "Hcj max. (A/m)": -1114e3,
+  "Hcj min. (A/m)": -1115e3,
+  "BH max. (J/m3)": 302e3,
+  "BH min. (J/m3)": 263e3,
+  "Tc Br (%/C)": -0.12,
+  "Tc Hcb (%/C)": -0.60,
+  "Tc Conductivity (%/C)": -0.4041,
+  "Curie Temperature (C)": 310,
+  "Possible Magnetisation": ["diametral", "radial"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

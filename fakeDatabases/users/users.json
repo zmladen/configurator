@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "firstname": "Mladen",
+      "lastname": "Zec",
+      "username": "zmladen",
+      "email": "zmladen@gmail.com",
+      "admin": true,
+      "password": "sha256$9C1gmSA2$1a6f6c7256dc14b1c2a9a16d8470369623b9a2f922d8b6218e7e7f0c3f05e9fb",
+      "public_id": "e19bf5b1-6c72-48d3-b212-8323e1cc95f2",
+      "status": 1,
+      "created": "22.01.2023",
+      "telephone": {
+        "mobile": "+491709171564",
+        "office": "+491233434356"
+      }
+    },
+    {
+      "firstname": "Marko",
+      "lastname": "Markovic",
+      "username": "mmarkovic",
+      "email": "mmarkovic@gmail.com",
+      "admin": false,
+      "password": "sha256$9C1gmSA2$1a6f6c7256dc14b1c2a9a16d8470369623b9a2f922d8b6218e7e7f0c3f05e9fb",
+      "public_id": "e19bf5b1-6c72-48d3-b212-8323e1cc95f2",
+      "status": 1,
+      "created": "22.01.2023",
+      "telephone": {
+        "mobile": "+491709171564",
+        "office": "+491233434356"
+      }
+    }
+  ]
+}

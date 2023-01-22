@@ -1,0 +1,30 @@
+{
+  "id": "3340db28-88b0-4021-8be6-86d786b4c86d",
+  "type": "magnet",
+  "supplier": "tbd",
+  "url": "",
+  "name": "HF 29/31",
+  "Density (kg/m3)": 5000,
+  "Conductivity (S/m)": 10,
+  "Br max. (T)": 0.415,
+  "Br min. (T)": 0.395,
+  "Hcb max. (A/m)": -318e3,
+  "Hcb min. (A/m)": -278e3,
+  "Hcj max. (A/m)": -333e3,
+  "Hcj min. (A/m)": -310e3,
+  "BH max. (J/m3)": 29000,
+  "BH min. (J/m3)": 29000,
+  "µr_theory": 1.07,
+  "Tc Br (%/C)": -0.2,
+  "Tc Hcb (%/C)": 0.35,
+  "Tc Conductivity (%/C)": 0.4041,
+  "Curie Temperature (C)": 700,
+  "Possible Magnetisation": ["diametral", "radial"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

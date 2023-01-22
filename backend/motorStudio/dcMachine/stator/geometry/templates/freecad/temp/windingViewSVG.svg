@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="17.07061635255949mm" height="10.434717967697274mm" viewBox="0 0 17.07061635255949 10.434717967697274" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<g id="Sketch003" transform="translate(-3.296743,10.267359) scale(1,-1)">
+<path id="Sketch003_w0000"  d="M 18.048592278909105 6.385625064973052 A 0.3 0.3 0 0 1 18.372 6.26792L 19.135004868539916 6.472371179170253 A 20.2 20.2 0 0 1 17.4937 10.1L 3.4641016151377553 2.0 A 4 4 0 0 0 4 9.79717e-16L 20.2 -7.727323086144461e-16 A 20.2 20.2 0 0 1 19.8076 3.96226L 19.044564644466252 3.7578136392076527 A 0.3 0.3 0 0 1 18.8234 3.49418L 18.67284263405358 1.7738532771757023 A 0.3 0.3 0 0 0 18.374 1.5L 9.14575993143775 1.4999999999999998 A 0.3 0.3 0 0 0 8.85598 1.72235L 8.693332436601615 2.3293714059226867 L 8.530682689652197 2.9363885253761293 A 0.3 0.3 0 0 0 8.67046 3.27384L 16.662337107260687 7.887954006636369 A 0.3 0.3 0 0 0 17.0581 7.80022L 18.048592278909105 6.385625064973052 " stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<title>b'StatorSketch'</title>
+</g>
+<g id="Sketch011" transform="translate(-3.296743,10.267359) scale(1,-1)">
+<path id="Sketch011_w0000"  d="M 17.53267064422952 6.24738427960291 L 16.751963535932394 7.362349580166852 L 9.053365370458753 2.9175618569478923 L 9.299225329033542 2.0 L 18.18880077547147 2.0 L 18.307430313889903 3.355941828775088 L 17.53267064422952 6.24738427960291 " stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<title>b'TerminalSketch'</title>
+</g>
+<g id="SlotWindingsIsolation" transform="translate(-3.296743,10.267359) scale(1,-1)">
+<circle cx="9.391077523192514" cy="2.7776769031073543" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="9.541192569351976" cy="2.2174399238596947" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="9.951314502440175" cy="2.6275618569478922" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.361436435528372" cy="3.03768379003609" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.511551481687833" cy="2.47744681078843" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.771558368616569" cy="3.447805723124287" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.921673414776032" cy="2.8875687438766273" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.071788460935494" cy="2.3273317646289677" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.181680301704766" cy="3.8579276562124845" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.331795347864228" cy="3.297690676964825" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.48191039402369" cy="2.7374536977171653" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.632025440183153" cy="2.1772167184695057" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.741917280952427" cy="3.707812610053023" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.89203232711189" cy="3.1475756308053633" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="12.042147373271352" cy="2.5873386515577037" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="12.152039214040625" cy="4.117934543141221" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="12.302154260200087" cy="3.557697563893561" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="12.452269306359549" cy="2.9974605846459013" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="12.602384352519012" cy="2.4372236053982412" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="12.562161147128823" cy="4.528056476229418" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="12.712276193288284" cy="3.9678194969817584" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="12.862391239447748" cy="3.407582517734099" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.01250628560721" cy="2.8473455384864392" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.16262133176667" cy="2.2871085592387796" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="12.97228308021702" cy="4.938178409317615" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.122398126376481" cy="4.3779414300699555" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.272513172535943" cy="3.817704450822296" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.422628218695404" cy="3.2574674715746363" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.572743264854868" cy="2.6972304923269768" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.532520059464678" cy="4.788063363158153" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.68263510562414" cy="4.227826383910493" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.832750151783603" cy="3.6675894046628335" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.982865197943065" cy="3.107352425415174" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.132980244102527" cy="2.5471154461675143" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.942641992552877" cy="5.198185296246351" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.092757038712339" cy="4.637948316998691" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.2428720848718" cy="4.0777113377510315" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.392987131031262" cy="3.5174743585033714" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.543102177190725" cy="2.957237379255712" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.693217223350187" cy="2.397000400008052" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.352763925641074" cy="5.608307229334548" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.502878971800536" cy="5.048070250086888" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.652994017959998" cy="4.487833270839229" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.803109064119461" cy="3.927596291591569" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.953224110278923" cy="3.3673593123439094" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.103339156438384" cy="2.80712233309625" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.253454202597847" cy="2.2468853538485902" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.762885858729272" cy="6.018429162422746" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.913000904888735" cy="5.458192183175086" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.063115951048196" cy="4.897955203927427" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.213230997207658" cy="4.337718224679767" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.36334604336712" cy="3.777481245432107" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.513461089526583" cy="3.2172442661844474" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.663576135686045" cy="2.6570072869367873" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.32312283797693" cy="5.868314116263283" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.473237884136392" cy="5.308077137015624" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.623352930295855" cy="4.747840157767964" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.773467976455317" cy="4.1876031785203045" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.923583022614778" cy="3.627366199272645" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="16.07369806877424" cy="3.0671292200249853" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="16.2238131149337" cy="2.5068922407773258" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.733244771065129" cy="6.278436049351481" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.883359817224592" cy="5.718199070103822" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="16.033474863384054" cy="5.157962090856162" r="0.29" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<title>b'SlotWindingsIsolation'</title>
+</g>
+<g id="SlotWindingsConductor" transform="translate(-3.296743,10.267359) scale(1,-1)">
+<circle cx="9.391077523192514" cy="2.7776769031073543" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="9.541192569351976" cy="2.2174399238596947" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="9.951314502440175" cy="2.6275618569478922" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.361436435528372" cy="3.03768379003609" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.511551481687833" cy="2.47744681078843" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.771558368616569" cy="3.447805723124287" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.921673414776032" cy="2.8875687438766273" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.071788460935494" cy="2.3273317646289677" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.181680301704766" cy="3.8579276562124845" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.331795347864228" cy="3.297690676964825" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.48191039402369" cy="2.7374536977171653" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.632025440183153" cy="2.1772167184695057" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.741917280952427" cy="3.707812610053023" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.89203232711189" cy="3.1475756308053633" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="12.042147373271352" cy="2.5873386515577037" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="12.152039214040625" cy="4.117934543141221" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="12.302154260200087" cy="3.557697563893561" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="12.452269306359549" cy="2.9974605846459013" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="12.602384352519012" cy="2.4372236053982412" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="12.562161147128823" cy="4.528056476229418" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="12.712276193288284" cy="3.9678194969817584" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="12.862391239447748" cy="3.407582517734099" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.01250628560721" cy="2.8473455384864392" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.16262133176667" cy="2.2871085592387796" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="12.97228308021702" cy="4.938178409317615" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.122398126376481" cy="4.3779414300699555" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.272513172535943" cy="3.817704450822296" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.422628218695404" cy="3.2574674715746363" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.572743264854868" cy="2.6972304923269768" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.532520059464678" cy="4.788063363158153" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.68263510562414" cy="4.227826383910493" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.832750151783603" cy="3.6675894046628335" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.982865197943065" cy="3.107352425415174" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.132980244102527" cy="2.5471154461675143" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="13.942641992552877" cy="5.198185296246351" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.092757038712339" cy="4.637948316998691" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.2428720848718" cy="4.0777113377510315" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.392987131031262" cy="3.5174743585033714" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.543102177190725" cy="2.957237379255712" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.693217223350187" cy="2.397000400008052" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.352763925641074" cy="5.608307229334548" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.502878971800536" cy="5.048070250086888" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.652994017959998" cy="4.487833270839229" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.803109064119461" cy="3.927596291591569" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.953224110278923" cy="3.3673593123439094" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.103339156438384" cy="2.80712233309625" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.253454202597847" cy="2.2468853538485902" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.762885858729272" cy="6.018429162422746" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="14.913000904888735" cy="5.458192183175086" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.063115951048196" cy="4.897955203927427" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.213230997207658" cy="4.337718224679767" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.36334604336712" cy="3.777481245432107" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.513461089526583" cy="3.2172442661844474" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.663576135686045" cy="2.6570072869367873" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.32312283797693" cy="5.868314116263283" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.473237884136392" cy="5.308077137015624" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.623352930295855" cy="4.747840157767964" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.773467976455317" cy="4.1876031785203045" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.923583022614778" cy="3.627366199272645" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="16.07369806877424" cy="3.0671292200249853" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="16.2238131149337" cy="2.5068922407773258" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.733244771065129" cy="6.278436049351481" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="15.883359817224592" cy="5.718199070103822" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="16.033474863384054" cy="5.157962090856162" r="0.265" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<title>b'SlotWindingsConductor'</title>
+</g>
+</svg>

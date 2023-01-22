@@ -1,0 +1,16 @@
+{
+  "id":"cf3b06a5-49a2-4032-9192-056772d0a23f",
+  "name":"Choke 4.9uH",
+  "type": "choke",
+  "WT-Part Number": "366800007",
+  "PDM-Link": "",
+  "Resistance (Ohm)": 12.6e-3,
+  "Inductance (H)": 4.9e-6,
+  "Measuring Frequency (Hz)": 1e3,
+  "Resistance Tc (%/C)": -0.4041,
+  "I N (A)": 10,
+  "I MAX (A)": 48.5,
+  "T MAX (s)": null,
+  "saturation current (A)": 42,
+  "comment": "higher 18V (+ U Brush) NiZn-Ferrit"
+}

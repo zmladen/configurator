@@ -1,0 +1,9 @@
+{
+  "apiUrl": "http://127.0.0.1:5000",
+  "apiUrlLocal1": "http://10.8.1.101:8080",
+  "apiUrlLocal2": "http://10.8.1.101:9090",
+  "Pump Studio Package Path": "L:\\Plant\\Nuernberg\\RnD\\Drive_Simulations\\libs\\pythonAPI\\pumpStudio",
+  "Python API Path": "L:\\Plant\\Nuernberg\\RnD\\Drive_Simulations\\libs\\pythonAPI",
+  "Pump Studio Package Path1": "C:\\WORK\\Programming\\React-Projects\\drive-sim\\pythonAPI\\pumpStudio",
+  "Python API Path1": "C:\\WORK\\Programming\\React-Projects\\drive-sim\\pythonAPI"
+}

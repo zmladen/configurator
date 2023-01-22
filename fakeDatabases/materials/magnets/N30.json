@@ -1,0 +1,29 @@
+{
+  "id": "3393c88b-4c53-4872-ace7-5e192aa197ed",
+  "type": "magnet",
+  "supplier": "Arnoldmagnetics",
+  "url": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/11/N30-151021.pdf",
+  "name": "N30",
+  "Density (kg/m3)": 7500,
+  "Conductivity (S/m)": 555.6e3,
+  "Br max. (T)": 1.13,
+  "Br min. (T)": 1.08,
+  "Hcb max. (A/m)": -859e3,
+  "Hcb min. (A/m)": -796e3,
+  "Hcj max. (A/m)": -955e3,
+  "Hcj min. (A/m)": -955e3,
+  "BH max. (J/m3)": 247e3,
+  "BH min. (J/m3)": 223e3,
+  "Tc Br (%/C)": -0.12,
+  "Tc Hcb (%/C)": -0.75,
+  "Tc Conductivity (%/C)": -0.4041,
+  "Curie Temperature (C)": 310,
+  "Possible Magnetisation": ["diametral", "radial"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

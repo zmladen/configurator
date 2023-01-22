@@ -1,0 +1,14 @@
+{
+  "id": "7dcec020-144f-440c-b076-d8b87d1660f2",
+  "type": "vacuum",
+  "supplier": "",
+  "url": "",
+  "name": "Vacuum",
+  "Density (kg/m3)": 0,
+  "Conductivity (S/m)": 0,
+  "Tc Conductivity (%/C)": 0,
+  "ur": 1,
+  "H (A/m)": [],
+  "B (T)": [],
+  "Losses": []
+}

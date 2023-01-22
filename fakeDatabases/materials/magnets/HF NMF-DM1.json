@@ -1,0 +1,29 @@
+{
+  "id": "4e4c7e32-594a-464e-827c-bea818ee2a05",
+  "type": "magnet",
+  "supplier": "Hitachi",
+  "url": "https://www.hitachi-metals.co.jp/e/products/auto/el/p03_05.html",
+  "name": "NMF-DM1",
+  "Density (kg/m3)": 7500,
+  "Conductivity (S/m)": 10,
+  "Br max. (T)": 0.34,
+  "Br min. (T)": 0.34,
+  "Hcb max. (A/m)": -223e3,
+  "Hcb min. (A/m)": -223e3,
+  "Hcj max. (A/m)": -263e3,
+  "Hcj min. (A/m)": -263e3,
+  "BH max. (J/m3)": 0,
+  "BH min. (J/m3)": 0,
+  "Tc Br (%/C)": -0.2,
+  "Tc Hcb (%/C)": -0.535,
+  "Tc Conductivity (%/C)": 0,
+  "Curie Temperature (C)": 310,
+  "Possible Magnetisation": ["diametral", "radial", "lateral"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

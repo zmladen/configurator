@@ -1,0 +1,30 @@
+{
+  "id": "1fbc606a-44b7-4afc-8a32-e1d83e89429a",
+  "type": "magnet",
+  "supplier": "MS Schramberg",
+  "url": "https://www.magnete.de/de.html",
+  "name": "HF 14/22p",
+  "Density (kg/m3)": 3600,
+  "Conductivity (S/m)": 10,
+  "Br max. (T)": 0.275,
+  "Br min. (T)": 0.265,
+  "Hcb max. (A/m)": -190e3,
+  "Hcb min. (A/m)": -180e3,
+  "Hcj max. (A/m)": -230e3,
+  "Hcj min. (A/m)": -220e3,
+  "BH max. (J/m3)": 14.5e3,
+  "BH min. (J/m3)": 14.0e3,
+  "µr_theory": 1.05,
+  "Tc Br (%/C)": -0.19,
+  "Tc Hcb (%/C)": 0.3,
+  "Tc Conductivity (%/C)": 0,
+  "Curie Temperature (C)": 450,
+  "Possible Magnetisation": ["diametral","radial", "lateral"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

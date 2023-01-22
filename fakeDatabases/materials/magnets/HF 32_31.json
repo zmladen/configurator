@@ -1,0 +1,30 @@
+{
+  "id": "6d986bdf-33b3-4ca3-9117-27dbfa1f08f8",
+  "type": "magnet",
+  "supplier": "tbd",
+  "url": "",
+  "name": "HF 32/31",
+  "Density (kg/m3)": 5000,
+  "Conductivity (S/m)": 10,
+  "Br max. (T)": 0.430,
+  "Br min. (T)": 0.410,
+  "Hcb max. (A/m)": -326e3,
+  "Hcb min. (A/m)": -286e3,
+  "Hcj max. (A/m)": -333e3,
+  "Hcj min. (A/m)": -310e3,
+  "BH max. (J/m3)": 35.2e3,
+  "BH min. (J/m3)": 32.0e3,
+  "µr_theory": 1.1,
+  "Tc Br (%/C)": -0.2,
+  "Tc Hcb (%/C)": 0.35,
+  "Tc Conductivity (%/C)": 0.4041,
+  "Curie Temperature (C)": 700,
+  "Possible Magnetisation": ["diametral", "radial"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

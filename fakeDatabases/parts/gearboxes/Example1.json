@@ -1,0 +1,16 @@
+{
+  "Type": "Planetary", 
+  "Application": "IDS",
+  "PDM links": "",
+  "name": "Gerbox 1",
+  "id": "12345",
+  "Ratio": 100,
+  "Stages": [
+    { "Info": "Stage 1", "Efficiency (%)": 90 },
+    { "Info": "Stage 2", "Efficiency (%)": 90 }
+  ],
+  "Lifetime": "200h",
+  "Input (Max.) Speed (rpm)": 5000,
+  "Min. Temp. (C)": -20,
+  "Max. Temperature (C)": 85
+}

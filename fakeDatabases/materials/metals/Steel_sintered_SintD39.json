@@ -1,0 +1,16 @@
+{
+  "id": "3cdf4209-7c06-4b20-aadc-767f4e43c530",
+  "type": "ferrous metal",
+  "supplier": "tbd",
+  "url": "",
+  "name": "Sinter Steel SINT D39",
+  "Density (kg/m3)": 7000,
+  "Stacking Factor (%)": 100,
+  "Conductivity (S/m)": [],
+  "Tc Conductivity (%/C)": [],
+  "ur": 1,
+  "H (A/m)": [],
+  "B (T)": [],
+  "Losses": [],
+  "Thermal Coefficient of Linear Expansion (1/K)": 12e-6
+}

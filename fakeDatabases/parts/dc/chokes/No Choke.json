@@ -1,0 +1,15 @@
+{
+  "id":"263823c4-424f-45dc-b22b-fcbf8ec89927",
+  "name":"No Choke",
+  "type": "choke",
+  "WT-Part Number": "",
+  "Resistance (Ohm)": 0,
+  "Inductance (H)": 0,
+  "Measuring Frequency (Hz)": 0,
+  "Resistance Tc (%/C)": 0.0,
+  "I N (A)": null,
+  "I MAX (A)": null,
+  "T MAX (s)": null,
+  "saturation current (A)": null,
+  "comment": "no choke"
+}

@@ -1,0 +1,35 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr:hover {
+  background-color: #eee;
+}
+
+th,
+td {
+  border: 1px solid #456;
+  padding: 8px;
+  text-align: left;
+}
+
+td:hover {
+  cursor: pointer;
+}
+
+th {
+  text-align: center;
+}
+
+td.green {
+  color: green;
+}
+
+td.red {
+  color: red;
+}
+
+th {
+  background-color: #ebfbff;
+}

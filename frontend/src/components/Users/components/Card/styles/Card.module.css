@@ -1,0 +1,60 @@
+.Chard {
+  display: flex;
+  cursor: pointer;
+  height: 130px;
+  max-width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+}
+
+.Chard:hover {
+  opacity: 0.9;
+  transform: scale(0.995);
+}
+
+.Image {
+  display: flex;
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+.Wrapper {
+  display: grid;
+  flex-direction: column;
+  grid-template-rows: 2fr 1fr;
+  width: 100%;
+  margin-left: 15px;
+}
+
+.Wrapper .Title {
+  height: 100%;
+}
+
+.Wrapper .Title h4 {
+  height: 100%;
+  padding: 0px;
+  margin: 10px 0 10px 0;
+}
+
+.Wrapper .Content {
+  font-size: 14px;
+  /* background-color: aqua; */
+}
+
+.Wrapper .Content p {
+  /* background-color: antiquewhite; */
+  display: flex;
+  margin: 0px;
+  margin-bottom: 5px;
+  padding: 0px;
+}
+
+.Wrapper .Content p span {
+  /* background-color: antiquewhite; */
+  font-weight: 600;
+  margin-right: 5px;
+  display: flex;
+  /* margin: 0px; */
+  /* margin-bottom: 5px; */
+  /* padding: 0px; */
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="13.669962264419617mm" height="8.268038475772933mm" viewBox="0 0 13.669962264419617 8.268038475772933" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<g id="Sketch003" transform="translate(-2.464057,8.134019) scale(1,-1)">
+<path id="Sketch003_w0000"  d="M 13.601947613176167 4.90959952582246 A 0.3 0.3 0 0 1 13.9394 4.76982L 15.165935400806614 5.098470694096486 A 16 16 0 0 1 13.8564 8L 2.598076211353316 1.5 A 3 3 0 0 0 3 7.34788e-16L 16.0 2.6942161147720856e-16 A 16 16 0 0 1 15.6833 3.16756L 14.456786223336145 2.8389136427045174 A 0.3 0.3 0 0 1 14.2344 2.54914L 14.234431936866903 1.3999999999999995 A 0.3 0.3 0 0 0 13.9344 1.1L 8.217663428000117 1.1000000000000003 A 0.3 0.3 0 0 0 7.92789 1.32235L 7.7274066103125465 2.070552360820166 L 7.5269275405116955 2.818750435171088 A 0.3 0.3 0 0 0 7.66671 3.1562L 12.617572044631936 6.0145880242705685 A 0.3 0.3 0 0 0 13.0274 5.90478L 13.601947613176167 4.90959952582246 " stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<title>b'StatorSegment'</title>
+</g>
+<g id="Sketch011" transform="translate(-2.464057,8.134019) scale(1,-1)">
+<path id="Sketch011_w0000"  d="M 13.351947613176145 4.842612227714674 L 12.785873314821137 5.823081673324453 L 7.758479055168455 2.9205142441915926 L 8.179297078601168 1.35 L 13.984431936866882 1.35 L 13.984431936866882 2.4821485967100108 L 13.351947613176145 4.842612227714674 " stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<title>b'Terminal'</title>
+</g>
+<g id="SlotWindingsIsolation" transform="translate(-2.464057,8.134019) scale(1,-1)">
+<circle cx="8.141607669821587" cy="2.7618171758690524" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="8.32113168582537" cy="2.0918244269641284" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="8.811600418726512" cy="2.5822931598652703" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="8.991124434730295" cy="1.9123004109603463" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="9.302069151627654" cy="3.072761892766412" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="9.481593167631436" cy="2.402769143861488" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="9.66111718363522" cy="1.7327763949565642" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="9.792537884528796" cy="3.5632306256675537" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="9.972061900532578" cy="2.8932378767626297" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.151585916536362" cy="2.2232451278577057" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.331109932540144" cy="1.5532523789527815" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.283006617429937" cy="4.053699358568696" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.462530633433719" cy="3.3837066096637716" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.642054649437501" cy="2.7137138607588476" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.821578665441285" cy="2.0437211118539236" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.952999366334861" cy="3.874175342564913" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.132523382338643" cy="3.204182593659989" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.312047398342427" cy="2.534189844755065" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.49157141434621" cy="1.8641970958501408" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.443468099236004" cy="4.364644075466055" r="0.329" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<title>b'SlotWindingsIsolation'</title>
+</g>
+<g id="SlotWindingsConductor" transform="translate(-2.464057,8.134019) scale(1,-1)">
+<circle cx="8.141607669821587" cy="2.7618171758690524" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="8.32113168582537" cy="2.0918244269641284" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="8.811600418726512" cy="2.5822931598652703" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="8.991124434730295" cy="1.9123004109603463" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="9.302069151627654" cy="3.072761892766412" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="9.481593167631436" cy="2.402769143861488" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="9.66111718363522" cy="1.7327763949565642" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="9.792537884528796" cy="3.5632306256675537" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="9.972061900532578" cy="2.8932378767626297" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.151585916536362" cy="2.2232451278577057" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.331109932540144" cy="1.5532523789527815" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.283006617429937" cy="4.053699358568696" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.462530633433719" cy="3.3837066096637716" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.642054649437501" cy="2.7137138607588476" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.821578665441285" cy="2.0437211118539236" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="10.952999366334861" cy="3.874175342564913" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.132523382338643" cy="3.204182593659989" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.312047398342427" cy="2.534189844755065" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.49157141434621" cy="1.8641970958501408" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<circle cx="11.443468099236004" cy="4.364644075466055" r="0.315" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<title>b'SlotWindingsConductor'</title>
+</g>
+</svg>

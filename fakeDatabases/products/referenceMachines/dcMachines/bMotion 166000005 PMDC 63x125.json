@@ -1,0 +1,204 @@
+{
+  "name": "bMotion 166000005 PMDC 63x125",
+  "number": "166000005",
+  "type": { "id": "9164b628-eaca-494c-9bb8-c3e53f29023b", "name": "dc" },
+  "category": "virtual",
+  "id": "3d0b8cf3-9fbc-4f8a-8fb5-04501cdbccae",
+  "image": "",
+  "WT-Part URL": "",
+  "design": {
+    "Stator": {
+      "Type": 1,
+      "Material": {
+        "Used": { "id": "a230bb07-4473-4987-802c-cf94e75cd63e" },
+        "Options": [
+          { "id": "a230bb07-4473-4987-802c-cf94e75cd63e" }
+        ]
+      },
+      "Slot Number": 12,
+      "Outer Diameter (mm)": 40.4,
+      "Inner Diameter (mm)": 8,
+      "Stack Length (mm)": 52,
+      "Skew Angle (deg)": 0,
+      "Sector": {
+        "Slot": {
+          "Tip Height Reduction (%)": 0,
+          "Tooth Thickness (mm)": 3,
+          "Yoke Thickness (mm)": 5,
+          "Tip Height (mm)": 1,
+          "Tip Angle (deg)": 95.0,
+          "Opening Left (mm)": 1.3,
+          "Opening Right (mm)": 1.3
+        }
+      }
+    },
+    "Rotor": {
+      "Type": 1,
+      "Pole Number": 2,
+      "Magnetization Type": "radial",
+      "Material": {
+        "Used": { "id": "a230bb07-4473-4987-802c-cf94e75cd63e" },
+        "Options": [
+          { "id": "a230bb07-4473-4987-802c-cf94e75cd63e" }
+        ]
+      },
+      "Inner Diameter (mm)": 41.6,
+      "Pole": {
+        "Pockets": [
+          {
+            "Type": 1,
+            "Magnet": {
+              "Material": {
+                "Used": { "id": "3340db28-88b0-4021-8be6-86d786b4c86d" },
+                "Options": [
+                  { "id": "3340db28-88b0-4021-8be6-86d786b4c86d" },
+                  { "id": "1f1c7dcb-b541-4ac2-a90e-db3084201f37" }
+                ]
+              },
+              "Height (mm)": 7.2,
+              "Embrace (%)": 85.5,
+              "Front Angle (deg)": 89,
+              "Back Angle (deg)": 110,
+              "Edge Angle (deg)": 10,
+              "Cut Side (mm)": 1.1,
+              "Top Airgap (mm)": 0.13,
+              "Edge Airgap (mm)": 0.2,
+              "Offset (mm)": 0.31,
+              "Length (mm)": 64
+            }
+          }
+        ]
+      }
+    },
+    "Winding": {
+      "Axial Overhang (mm)": 1,
+      "Coil": {
+        "Head Type": 1,
+        "Nesting Factor (%)": 100,
+        "Terminal Type": 1,
+        "Winding Number": 16,
+        "Number of Multiple Wires": 2,
+        "Wire": {
+            "Gauge": {
+                "Conductor Diameter (mm)": 0.53,
+                "Isolation Diameter (mm)": 0.58,
+                "Isolation Diameter G1 max (mm)": 0.58,
+                "Isolation Diameter G1 min (mm)": 0.556,
+                "Isolation Diameter G2 max (mm)": 0.601,
+                "Isolation Diameter G2 min (mm)": 0.575,
+                "id": "93a70442-e259-4caa-bb3c-57805933c473",
+                "name": "0.530"
+          },
+          "Isolation Grade": "Isolation Diameter G1 max (mm)",
+          "Material": {
+            "Options": [{ "id": "0e042161-8b02-4a18-b316-1ba09cd988af" }],
+            "Used": { "id": "0e042161-8b02-4a18-b316-1ba09cd988af" }
+          }
+        }
+      },
+      "Coil Connection": {
+        "Options": [
+          { "name": "lap", "id": "b0ce8956-02d8-4b7d-a785-15bef81a569c" }
+        ],
+        "Used": {
+          "id": "b0ce8956-02d8-4b7d-a785-15bef81a569c",
+          "name": "lap"
+        }
+      },
+      "Number Of Layers": { "Options": [2], "Used": 2 },
+      "Plex Number": { "Options": [1], "Used": 1 },
+      "Coil Span (Teeth)": 5,
+      "Layers": 2,
+      "Slot Isolation (mm)": 0.18,
+      "Height Ratio (%)": 55,
+      "Winding Angle (deg)": 40
+    },
+    "Housing": {
+      "Material": {
+        "Used": { "id": "cca34047-369b-415c-a0d0-5152ad2b95c0" },
+        "Options": [{ "id": "cca34047-369b-415c-a0d0-5152ad2b95c0" }]
+      },
+      "Outer Diameter (mm)": 63,
+      "Inner Diameter (mm)": 56.2,
+      "Length (mm)": 109
+    },
+    "Shaft": {
+      "Material": {
+        "Used": { "id": "649b2db5-ec6e-4ca5-9f00-21948e386f57" },
+        "Options": [
+          { "id": "649b2db5-ec6e-4ca5-9f00-21948e386f57" },
+          { "id": "cae282af-5eb3-4af3-a7b4-0a287d287278" }
+        ]
+      },
+      "Outer Diameter (mm)": 8,
+      "Length (mm)": 165
+    },
+    "Nameplate": {
+      "Scaling Factors": {
+        "ke": 1,
+        "Resistance": 1.11,
+        "Inductance": 1
+      },
+      "ke (V*s/rad)": 0.0634,
+      "Resistance (Ohm)": 0.3996,
+      "Inductance (H)": 1e-5,
+      "Btooth (T)": 1.5,
+      "Byoke (T)": 1.5
+    },
+    "Environment": {
+      "Ambient Temperature (C)": 25
+    },
+    "Mechanics": {
+      "Moment of Inertia (kg*m^2)": 1e-5,
+      "Friction Torque (Nm)": 0.001,
+      "Damping (Nm*s/rad)": 1e-15
+    },
+    "Commutation System": {
+      "Commutator": {
+        "Outer Diameter (mm)": 18.7,
+        "Inner Diameter (mm)": 8,
+        "Length (mm)": 11,
+        "Stack Distance (mm)": 23.2,
+        "Isolation Thickness (mm)": 0.5,
+        "Displacement Angle (deg)": 15,
+        "Contact Voltage Drop (V)": 0.5,
+        "Brushes": {
+          "Used": { "id": "8394cdf4-9870-4f0d-8024-4aabb3514011" },
+          "Options": [{"id": "d552180d-743f-4864-9f1f-0e1eb3a3214c"},
+          {"id": "8394cdf4-9870-4f0d-8024-4aabb3514011"}]
+        },
+        "Number of Brushes": 2,
+        "Spring Pressure (N/mm2)": 0.06,  
+        "Material": {
+          "Used": { "id": "58891eb0-6757-4ec0-b1db-6d68c31b378d" },
+          "Options": [{ "id": "58891eb0-6757-4ec0-b1db-6d68c31b378d" }]
+        }
+      },
+      "Power Supply": {
+        "Voltage (V)": 24,
+        "Resistance (Ohm)": 0.0
+      },
+      "Cable": {
+        "Resistance (Ohm)": 0.0041,
+        "Resistance Tc (%/C)": -0.4041
+      },
+      "Connection Unit": {
+        "type": "pcb",
+        "Resistance (Ohm)": 0.00075,
+        "Resistance Tc (%/C)": -0.4041
+      },
+      "Choke": {
+        "Used": { "id": "263823c4-424f-45dc-b22b-fcbf8ec89927" },
+        "Options": [
+          { "id": "263823c4-424f-45dc-b22b-fcbf8ec89927" },
+          { "id": "cf3b06a5-49a2-4032-9192-056772d0a23f" }, 
+          { "id": "e0686098-ae3d-49f1-9f99-dff698a88712" }
+        ]
+      }
+    }
+  },
+  "configurator": {
+    "Stator": {"Stack Length (mm)": {"Options":[22, 52]}},
+    "Commutation System": {"Commutator": {"Spring Pressure (N/mm2)":{"Options": [0.06, 0.044]}}}
+  }
+}

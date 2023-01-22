@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <title>Calulation Report</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <style type="text/css">
+      body {
+        font-family: sans-serif;
+        background: linear-gradient(#1A7F72, #1A7F72);
+        color: #333;
+        padding: 0px 0 0px 0;
+        margin: 0;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .jumbotron {
+      background-color:white !important;
+      position:relative !important;
+      margin-top: 30px !important;
+
+      }
+
+
+      .section {
+        max-width: 1200px;
+        padding: 30px;
+        margin: 30px auto;
+        background-color: #fff;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+
+      table{
+         margin: 0 auto;
+         table-layout: fixed;
+         word-wrap: break-word;
+      }
+
+      th {
+          background-color: #FFFFFF;
+          color:black;
+          font-weight: bold;
+      }
+
+      .table-condensed{
+        font-size: 10px;
+        white-space:nowrap;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Fixed navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          {% for section in report.sections %}
+            <li class="nav-item"><a class="nav-link" href="#{{section.title}}">{{section.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="jumbotron">
+        <h1>{{report.title}}</h1>
+        <p>{{report.text}}</p>
+      </div>
+
+      <!--Calculation Order Section-->
+      {% for section in report.sections %}
+        {% if not section == None %}
+        	<div id="{{section.title}}" class="jumbotron">
+        <h2>{{section.title}}</h2>
+        <p class="section-text">{{section.text}}</p>
+
+        <div class="row justify-content-center">
+          {% for image in section.images %}
+            <div class="{{image.class}}">
+              {{image.image}}
+              <p class="caption-text">{{image.caption}}</p>
+            </div>
+          {% endfor %}
+        </div>
+
+        <div class="row justify-content-center">
+          {% for table in section.tables %}
+            <div class="{{table.class}}">
+              <p class="caption-text">{{table.caption}}</p>
+              {{table.table}}
+            </div>
+          {% endfor %}
+        </div>
+
+          {% for subsection in section.subsections %}
+            <h5>{{subsection.title}}</h5>
+            <p class="section-text">{{subsection.text}}</p>
+
+            <div class="row justify-content-center">
+              {% for image in subsection.images %}
+                <div class="{{image.class}}">
+                  {{image.image}}
+                  <p class="caption-text">{{image.caption}}</p>
+                </div>
+              {% endfor %}
+            </div>
+
+            <div class="row justify-content-center">
+              {% for table in subsection.tables %}
+                <div class="{{table.class}}">
+                  <p class="caption-text">{{table.caption}}</p>
+                  {{table.table}}
+                </div>
+              {% endfor %}
+            </div>
+
+          {% endfor %}
+      </div>
+        {% endif %}
+      {% endfor %}
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>

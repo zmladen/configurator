@@ -1,0 +1,14 @@
+{
+  "id": "58891eb0-6757-4ec0-b1db-6d68c31b378d",
+  "type": "",
+  "supplier": "noname",
+  "url": "",
+  "name": "test",
+  "Electrical Resistivity (Ohm*m)": 123,
+  "Tc Conductivity (%/C)": 0.01,
+  "Density (kg/m3)": 123,
+  "Max. Current-Density (A)": null,
+  "Contacting Voltage Drop (V)": null,
+  "Friction Coefficient": null,
+  "Max. Temperature (C)": null
+}

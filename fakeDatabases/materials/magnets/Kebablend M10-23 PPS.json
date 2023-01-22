@@ -1,0 +1,30 @@
+{
+  "id": "9a62620a-cf16-436e-be9f-f1e3e68a0768",
+  "type": "magnet",
+  "supplier": "Barlog",
+  "url": "https://www.barlog.de/nc/kunststoffe/produktfinder/pl_action/show/pl_controller/Product/pl_product/kebablend-m-1023-pps.html",
+  "name": "Kebablend M10/23 PPS",
+  "Density (kg/m3)": 3340,
+  "Conductivity (S/m)": 10,
+  "Br max. (T)": 0.245,
+  "Br min. (T)": 0.225,
+  "Hcb max. (A/m)": -187e3,
+  "Hcb min. (A/m)": -155e3,
+  "Hcj max. (A/m)": -213e3,
+  "Hcj min. (A/m)": -165e3,
+  "BH max. (J/m3)": 11.5e3,
+  "BH min. (J/m3)": 10.0e3,
+  "µr_theory": 1.05,
+  "Tc Br (%/C)": -0.2,
+  "Tc Hcb (%/C)": 0.3,
+  "Tc Conductivity (%/C)": 0,
+  "Curie Temperature (C)": 285,
+  "Possible Magnetisation": ["diametral","radial", "lateral"],
+  "Intrinsic Demagnetization Curves": [
+    {
+      "Temperature (C)": 25,
+      "H (A/m)": [],
+      "J (T)": []
+    }
+  ]
+}

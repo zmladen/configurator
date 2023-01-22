@@ -1,0 +1,15 @@
+{
+  "id": "86a71e1a-1957-4d5d-9d77-103333a86b59",
+  "type": "plastic",
+  "supplier": "tbd",
+  "url": "",
+  "name": "Basic Plastic",
+  "Density (kg/m3)": 1.09,
+  "Stacking Factor (%)": 100,
+  "Conductivity (S/m)": 0,
+  "Tc Conductivity (%/C)": 0,
+  "ur": 1,
+  "H (A/m)": [],
+  "B (T)": [],
+  "Losses": []
+}
