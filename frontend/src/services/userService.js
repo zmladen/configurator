@@ -3,13 +3,18 @@ import config from "../config.json";
 
 const apiEndpoint = config.apiUrl + "/users/";
 
-export function register(user) {
-  return http.post(apiEndpoint, {
-    firstname: user.firstname,
-    lastname: user.lastname,
-    email: user.email,
-    password: user.password,
-  });
+
+export function editUser(user) {
+  return http.put(apiEndpoint, user);
+}
+
+export function addUser(user) {
+  return http.post(apiEndpoint, user);
+}
+
+export function deleteUser(user) {
+  // console.log(user)
+  return http.delete(apiEndpoint, {data:user});
 }
 
 export function fetchUsers(user) {
@@ -17,6 +22,8 @@ export function fetchUsers(user) {
 }
 
 export default {
-  register,
+  addUser,
   fetchUsers,
+  deleteUser,
+  editUser
 };

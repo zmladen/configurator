@@ -1,7 +1,8 @@
 import os
 import json
 from flask import request, jsonify, make_response
-from flask_restplus import Namespace, Resource, fields
+# from flask_restplus import Namespace, Resource, fields
+from flask_restx import Namespace, Resource, fields
 from fakeDatabases.service import getAllReferenceMachines, token_required
 from motorStudio.dcMachine import *
 from motorStudio.utilities import *

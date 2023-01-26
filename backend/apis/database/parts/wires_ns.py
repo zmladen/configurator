@@ -1,6 +1,7 @@
 import os, json
 from flask import jsonify
-from flask_restplus import Namespace, Resource, fields
+# from flask_restplus import Namespace, Resource, fields
+from flask_restx import Namespace, Resource, fields
 from fakeDatabases.service import getAllWires, token_required
 
 

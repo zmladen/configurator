@@ -1,3 +1,4 @@
+import datetime
 from flask import Flask, request, jsonify, make_response
 import os, uuid, json, jwt, jinja2, math, base64
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -45,24 +46,37 @@ def doesUserExist(email):
     return False
 
 
+def deleteUser(user):
+
+    users = getAllUsers()
+
+    new_users = [d for d in users if d['id'] != user["id"]]
+
+    with open(fakeUserDatabaseURL, "w") as outfile:
+        json.dump({"users": new_users}, outfile, indent=4)
+
+    return new_users
+
+
 def addNewUser(user):
     """Gets the user by ID."""
     users = json.load(open(fakeUserDatabaseURL))["users"]
 
-    data = {}
-    data["firstname"] = user["firstname"]
-    data["lastname"] = user["lastname"]
-    data["email"] = user["email"]
-    data["admin"] = False
-    data["password"] = generate_password_hash(
+    # data = {}
+    # data["firstname"] = user["firstname"]
+    # data["lastname"] = user["lastname"]
+    # data["email"] = user["email"]
+    # data["admin"] = False
+    user["created"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    user["password"] = generate_password_hash(
         user["password"], method="sha256")
-    data["public_id"] = str(uuid.uuid4())
+    user["id"] = str(uuid.uuid4())
 
-    if not doesUserExist(data["email"]):
-        users.append(data)
+    if not doesUserExist(user["email"]):
+        users.append(user)
         with open(fakeUserDatabaseURL, "w") as outfile:
             json.dump({"users": users}, outfile, indent=4)
-        return data
+        return user
 
     return False
 

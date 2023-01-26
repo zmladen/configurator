@@ -1,6 +1,7 @@
 .ButtonGroup {
   display: flex;
   justify-content: left;
+  margin: 5px;
 }
 
 .ButtonGroup :first-child {

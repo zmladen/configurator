@@ -1,26 +1,39 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Button from "../../../Button";
 import ButtonGroup from "../../../ButtonGroup";
 import Modal from "../../../Modal";
 import { TrashIcon, PencilIcon } from "@heroicons/react/24/solid";
+import { deleteUser, addUser } from "../../../../services/userService";
+import { useUser } from "../../../../context/userContext";
+
 import styles from "./styles/Table.module.css";
 
-const Table = ({ users }) => {
+const Table = () => {
+  const navigate = useNavigate();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
+  const [user, setUser] = useState({});
+  const { users, setUsers } = useUser();
 
   return (
     <>
-      <Modal
-        title={modalTitle}
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-      >
+      <Modal title={modalTitle} isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
         <ButtonGroup>
           <Button
             className={"btn btn-red pt-5 pb-5"}
             onClick={() => {
-              alert("User will be deleted");
+              deleteUser(user)
+                .then((response) => {
+                  console.log(response);
+                  setUsers(response.data.data);
+                  alert(response.data.message);
+                })
+                .catch(({ response }) => {
+                  alert(response.data);
+                });
+
+              setIsModalOpen(false);
             }}
           >
             Yes
@@ -53,18 +66,19 @@ const Table = ({ users }) => {
         </thead>
         <tbody>
           {users.map((user, index) => (
-            <tr key={index}>
+            <tr
+              key={index}
+              onClick={() => {
+                navigate(`user/${user.id}`);
+              }}
+            >
               <td>{`${index + 1}.`}</td>
               <td>{user.firstname}</td>
               <td>{user.lastname}</td>
               <td>{user.username}</td>
               <td>{user.email}</td>
-              <td className={user.admin ? styles.green : styles.red}>
-                {user.admin ? "True" : "False"}
-              </td>
-              <td className={user.status ? styles.green : styles.red}>
-                {user.status ? "active" : "deactivate"}
-              </td>
+              <td className={user.admin ? styles.green : styles.red}>{user.admin ? "True" : "False"}</td>
+              <td className={user.status ? styles.green : styles.red}>{user.status ? "active" : "deactivate"}</td>
               <td>{user.created}</td>
               <td>
                 {
@@ -72,7 +86,7 @@ const Table = ({ users }) => {
                     <Button
                       className={"btn btn-blue pt-5 pb-5"}
                       onClick={() => {
-                        alert("User edit clicked...");
+                        navigate(`user/${user.id}`);
                       }}
                     >
                       <PencilIcon />
@@ -82,9 +96,8 @@ const Table = ({ users }) => {
                       className={"btn btn-red pt-5 pb-5"}
                       onClick={() => {
                         setIsModalOpen(true);
-                        setModalTitle(
-                          `Are you sure you want to delete "${user.username}"?`
-                        );
+                        setUser(user);
+                        setModalTitle(`Are you sure you want to delete "${user.username}"?`);
                       }}
                     >
                       <TrashIcon />

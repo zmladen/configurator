@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import Container from "../../components/Container/Container";
 import Button from "../../components/Button";
 import styles from "./Styles/SignUp.module.css";
-import { Form, Input } from "../../components/Forms/Forms";
+import { Form, Input } from "../../components/Forms";
 
 function SignUp(props) {
   const [loader, setLoader] = useState(false);
@@ -21,9 +20,7 @@ function SignUp(props) {
         <Input label="Last Name" name="lastName" required={true} />
         <Input label="E-Mail" name="email" required={true} />
         <Input label="Password" name="password" required={true} />
-        <Button className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20">
-          Sign Up
-        </Button>
+        <Button className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20">Sign Up</Button>
       </Form>
     </div>
   );

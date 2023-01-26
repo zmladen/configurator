@@ -1,6 +1,7 @@
 import os, json, jwt, datetime
 from flask import request, jsonify, make_response
-from flask_restplus import Namespace, Resource, fields
+# from flask_restplus import Namespace, Resource, fields
+from flask_restx import Namespace, Resource, fields
 from fakeDatabases.service import getUser, addNewUser, fakeUserDatabaseURL
 from werkzeug.security import generate_password_hash, check_password_hash
 from ...app import app

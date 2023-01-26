@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "../components/Container/Container";
+import Container from "../components/Container";
 import Logo from "../components/Logo";
 import NavLink from "../components/NavLink";
 const WelcomePage = () => (

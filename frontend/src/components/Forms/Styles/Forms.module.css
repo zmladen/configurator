@@ -18,6 +18,30 @@ label {
   display: block;
 }
 
+
+.Select {
+  /* color: white; */
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.Select:hover {
+  /* color: white; */
+background-color: #eee;
+}
+
+.Select option {
+  font-size: 14px;
+  /* background-color: #eee; */
+  cursor: pointer;
+
+}
+
+
+
 button[type="submit"]:hover,
 input[type="submit"]:hover {
   background: #bf1650;

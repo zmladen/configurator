@@ -1,7 +1,8 @@
 import os
 import json
 from flask import jsonify
-from flask_restplus import Namespace, Resource, fields
+# from flask_restplus import Namespace, Resource, fields
+from flask_restx import Namespace, Resource, fields
 from fakeDatabases.service import getAllCommutatorMaterials, token_required
 
 api = Namespace("material/commutator", description="Gets all commutator materials from the database.")

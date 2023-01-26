@@ -1,7 +1,8 @@
 import os
 import json
 from flask import jsonify
-from flask_restplus import Namespace, Resource, fields
+# from flask_restplus import Namespace, Resource, fields
+from flask_restx import Namespace, Resource, fields
 from fakeDatabases.service import getAllMagnetMaterials, token_required
 
 api = Namespace("material/magnets", description="Gets all magnet materials from the database.")
