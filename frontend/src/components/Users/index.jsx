@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import styles from "./Styles/Users.module.css";
 import { fetchUsers } from "../../services/userService";
 import Table from "./components/Table";
@@ -10,10 +10,9 @@ import ButtonGroup from "../../components/ButtonGroup";
 import { useUser } from "../../context/userContext";
 
 function Users(props) {
+  const navigate = useNavigate();
   const [loader, setLoader] = useState(false);
   const { users, setUsers } = useUser();
-  // const navigate = useNavigate();
-
   useEffect(() => {
     setLoader(true);
 
@@ -36,6 +35,9 @@ function Users(props) {
         <Table />
         <ButtonGroup>
           <NavLink to={`/users/user/${"new user"}`}>Add New User</NavLink>
+          <Button className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20" type="button" onClick={() => navigate(-1)}>
+            Cancel
+          </Button>
         </ButtonGroup>
       </Container>
     </div>

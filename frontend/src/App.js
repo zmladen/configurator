@@ -5,7 +5,9 @@ import LogIn from "./components/LogIn";
 import Header from "./components/Header";
 import Configurator from "./components/Configurator";
 import Users from "./components/Users";
+import UserForm from "./components/Users/components/UserForm"
 import User from "./components/Users/components/User"
+
 import { UserProvider } from "./context/userContext";
 
 // Middleware warning solution
@@ -21,7 +23,8 @@ function App(props) {
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<LogIn />} />
           <Route path="/users" element={<Users />} />
-          <Route path="/users/user/:id" element={<User />} />
+          <Route path="/users/user/:id" element={<UserForm />} />
+          <Route path="/users/user_detail/:id" element={<User />} />
 
           <Route path="/configurator" element={<Configurator />} />
         </Routes>

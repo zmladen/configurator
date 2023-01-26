@@ -68,8 +68,8 @@ const Table = () => {
           {users.map((user, index) => (
             <tr
               key={index}
-              onClick={() => {
-                navigate(`user/${user.id}`);
+              onClick={(e) => {
+                navigate(`user_detail/${user.id}`);
               }}
             >
               <td>{`${index + 1}.`}</td>
@@ -85,7 +85,8 @@ const Table = () => {
                   <ButtonGroup>
                     <Button
                       className={"btn btn-blue pt-5 pb-5"}
-                      onClick={() => {
+                      onClick={(e) => {
+                        e.stopPropagation();
                         navigate(`user/${user.id}`);
                       }}
                     >
@@ -94,7 +95,9 @@ const Table = () => {
                     </Button>
                     <Button
                       className={"btn btn-red pt-5 pb-5"}
-                      onClick={() => {
+                      onClick={(e) => {
+                        e.stopPropagation();
+
                         setIsModalOpen(true);
                         setUser(user);
                         setModalTitle(`Are you sure you want to delete "${user.username}"?`);
