@@ -4,7 +4,7 @@ import Button from "../../../Button";
 import ButtonGroup from "../../../ButtonGroup";
 import Modal from "../../../Modal";
 import { TrashIcon, PencilIcon } from "@heroicons/react/24/solid";
-import { deleteUser, addUser } from "../../../../services/userService";
+import { deleteUser } from "../../../../services/userService";
 import { useUser } from "../../../../context/userContext";
 
 import styles from "./styles/Table.module.css";
@@ -78,13 +78,13 @@ const Table = () => {
               <td>{user.username}</td>
               <td>{user.email}</td>
               <td className={user.admin ? styles.green : styles.red}>{user.admin ? "True" : "False"}</td>
-              <td className={user.status ? styles.green : styles.red}>{user.status ? "active" : "deactivate"}</td>
+              <td className={user.status ? styles.green : styles.red}>{user.status ? "Active" : "Deactive"}</td>
               <td>{user.created}</td>
               <td>
                 {
                   <ButtonGroup>
                     <Button
-                      className={"btn btn-blue pt-5 pb-5"}
+                      className="btn btn-blue pt-5 pb-5 br-25"
                       onClick={(e) => {
                         e.stopPropagation();
                         navigate(`user/${user.id}`);
@@ -94,7 +94,7 @@ const Table = () => {
                       Edit
                     </Button>
                     <Button
-                      className={"btn btn-red pt-5 pb-5"}
+                      className="btn btn-red pt-5 pb-5 br-25"
                       onClick={(e) => {
                         e.stopPropagation();
 

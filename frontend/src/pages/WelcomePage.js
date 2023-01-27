@@ -17,8 +17,9 @@ const WelcomePage = () => (
       <p style={{ fontSize: "1em" }}>
         Yes you can do this here in a matter of seconds.
       </p>
-      <NavLink to="/configurator">Open Configurator</NavLink>
-      <NavLink to="/users">Users Page</NavLink>
+      <NavLink className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20"  to="/configurator">Open Configurator</NavLink>
+     <br/>
+      <NavLink className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20"  to="/users">Users Page</NavLink>
     </Container>
   </>
 );

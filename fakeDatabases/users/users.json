@@ -95,6 +95,38 @@
                 "mobile": "+491709171564",
                 "office": "+491233434356"
             }
+        },
+        {
+            "firstname": "asd",
+            "lastname": "asd",
+            "email": "zmladenn@gmail.com",
+            "username": "sadsdas",
+            "password": "sha256$C3unNP155zEBuXVh$bbeaae618d703d2655797fe4d9c1e28319180693040c45dbcea398ce61f9c62c",
+            "user": "No",
+            "status": "Deactive",
+            "admin": "Yes",
+            "telephone": {
+                "office": "017624236479",
+                "mobile": "+491709171564"
+            },
+            "created": "2023-01-27 17:11:09",
+            "id": "e00a0b45-dff2-4ae4-bed4-0f5517d4bc10"
+        },
+        {
+            "firstname": "asd",
+            "lastname": "asd",
+            "email": "zmladencn@gmail.com",
+            "username": "sadsdas",
+            "password": "sha256$yjPh2FED4uG3YklA$7f04bb0dd92c22ce5c935cb90de22356a15a4f69f8d347333fadd5b525851d71",
+            "user": "No",
+            "status": "Deactive",
+            "admin": "Yes",
+            "telephone": {
+                "office": "017624236479",
+                "mobile": "+491709171564"
+            },
+            "created": "2023-01-27 17:12:54",
+            "id": "757893a1-b8a2-4206-a7bc-7dcd316faa80"
         }
     ]
 }

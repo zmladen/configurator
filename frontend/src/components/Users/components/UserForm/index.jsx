@@ -44,6 +44,7 @@ function UserForm(props) {
       ? editUser(data)
           .then((response) => {
             alert(response.data);
+            navigate(-1);
           })
           .catch(({ response }) => {
             alert(response.data);
@@ -51,6 +52,7 @@ function UserForm(props) {
       : addUser(data)
           .then((response) => {
             alert(response.data);
+            navigate(-1);
           })
           .catch(({ response }) => {
             alert(response.data);

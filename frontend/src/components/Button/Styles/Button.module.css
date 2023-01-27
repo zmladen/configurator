@@ -21,17 +21,17 @@
 .btn-blue {
   /* background-color: blue; */
   color: white;
-  background-color: rgba(0, 0, 255, 0.8);
+  background-color: rgba(61, 84, 200, 0.9);
 }
 
 .btn-blue:hover {
   /* background-color: blue; */
   color: white;
-  background-color: rgba(0, 0, 255, 1);
+  background-color: rgba(61, 84, 200, 1);
 }
 
 .btn-green {
-  background-color: rgba(0, 153, 0, 0.8);
+  background-color: rgba(0, 153, 0, 0.9);
   color: white;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .btn-red {
-  background-color: rgba(255, 0, 0, 0.8);
+  background-color: rgba(255, 0, 0, 0.9);
   color: white;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .btn-dark {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
   color: white;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .btn-light {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
   color: black;
 }
 
@@ -104,7 +104,7 @@
 }
 
 .br-25 {
-  border-radius: 50px;
+  border-radius: 25px;
 }
 
 .br-50 {

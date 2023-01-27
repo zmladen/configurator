@@ -34,7 +34,9 @@ function Users(props) {
         <p>{`Total ${users.length} users.`}</p>
         <Table />
         <ButtonGroup>
-          <NavLink to={`/users/user/${"new user"}`}>Add New User</NavLink>
+          <NavLink className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20" to={`/users/user/${"new user"}`}>
+            Add New User
+          </NavLink>
           <Button className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20" type="button" onClick={() => navigate(-1)}>
             Cancel
           </Button>

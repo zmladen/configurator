@@ -11,13 +11,11 @@ function Header() {
   return (
     <header className={styles.Header}>
       <Logo src={"./images/logo.svg"} alt="" to="/" />
-      <p className={styles.User}>
-        {user ? `${user.lastname}, ${user.firstname}` : "Please log in..."}
-      </p>
+      <p className={styles.User}>{user ? `${user.lastname}, ${user.firstname}` : "Please log in..."}</p>
       <div className={styles.ButtonGroup}>
         {user ? (
           <Button
-            className="btn btn-navlink mr-5"
+            className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20"
             onClick={() => {
               console.log("Clicked");
               setUser(null);
@@ -26,9 +24,15 @@ function Header() {
             Log Out
           </Button>
         ) : (
-          <NavLink to="/login">Log In</NavLink>
+          <NavLink className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20" to="/login">
+            Log In
+          </NavLink>
         )}
-        {!user && <NavLink to="/signup">Sign Up</NavLink>}
+        {!user && (
+          <NavLink className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20" to="/signup">
+            Sign Up
+          </NavLink>
+        )}
       </div>
     </header>
   );

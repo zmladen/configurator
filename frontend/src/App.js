@@ -7,7 +7,6 @@ import Configurator from "./components/Configurator";
 import Users from "./components/Users";
 import UserForm from "./components/Users/components/UserForm"
 import User from "./components/Users/components/User"
-
 import { UserProvider } from "./context/userContext";
 
 // Middleware warning solution

@@ -1,6 +1,16 @@
 .User {
-  /* width: 500px;
-  max-width: 100%;
-  padding: 25px;
-  margin: 0 auto; */
+  margin: 15px;
+  display: flex;
+  width: 100%;
+}
+
+.Image {
+  width: 30%;
+  margin: 30px;
+  /* background-color: blue; */
+}
+
+.Infos {
+  width: 70%;
+  /* background-color: yellow; */
 }
