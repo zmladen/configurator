@@ -1,16 +1,47 @@
 .User {
+  /* display: flex; */
+  /* flex-direction: column; */
   margin: 15px;
+  /* justify-content: center; */
+  /* align-items: center; */
+
+}
+
+.User svg {
+  height: 15px;
+  margin-right: 5px;
+}
+
+.User p {
+ display: flex;
+align-items: center; 
+}
+
+.header {
   display: flex;
-  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
-.Image {
-  width: 30%;
-  margin: 30px;
-  /* background-color: blue; */
+.profileImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
-.Infos {
-  width: 70%;
-  /* background-color: yellow; */
+.name {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.sectionHeader {
+  font-size: 1.5rem;
+}
+
+.about {
+  margin-top: 2rem;
+}
+
+.contact {
+  margin-top: 2rem;
 }
