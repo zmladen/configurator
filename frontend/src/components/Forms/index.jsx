@@ -1,59 +1,97 @@
 import React, { useEffect } from "react";
-import { useForm } from "react-hook-form";
+import { useForm, useFormContext } from "react-hook-form";
 import styles from "./Styles/Forms.module.css";
 
-export function Form({ defaultValues, children, onSubmit }) {
-  const {
-    handleSubmit,
-    register,
-    reset,
-    formState: { errors },
-  } = useForm({ defaultValues: { ...defaultValues } });
+export const Input = ({
+  name,
+  label,
+  register,
+  errors,
+  required,
+  type,
+  validationSchema,
+  ...rest
+}) => (
+  <div className={styles.Input}>
+    <label htmlFor={name}>
+      {label}
+      {required && "*"}
+    </label>
+    <input
+      id={name}
+      name={name}
+      type={type}
+      {...rest}
+      {...register(name, validationSchema)}
+    />
+    {errors && errors[name]?.type === "required" && (
+      <span className="error">{errors[name]?.message}</span>
+    )}
+  </div>
+);
 
-  useEffect(() => {
-    reset(defaultValues);
-  }, [reset, defaultValues]);
+export const TextArea = ({
+  name,
+  label,
+  register,
+  errors,
+  required,
+  type,
+  validationSchema,
+  ...rest
+}) => (
+  <div className={styles.Input}>
+    <label htmlFor={name}>
+      {label}
+      {required && "*"}
+    </label>
+    <textarea
+      id={name}
+      name={name}
+      type={type}
+      {...rest}
+      {...register(name, validationSchema)}
+    />
+    {errors && errors[name]?.type === "required" && (
+      <span className="error">{errors[name]?.message}</span>
+    )}
+  </div>
+);
 
-  return (
-    <form className={styles.Form} onSubmit={handleSubmit(onSubmit)}>
-      {Array.isArray(children)
-        ? children.map((child) => {
-            return child.props.name
-              ? React.createElement(child.type, {
-                  ...{
-                    ...child.props,
-                    register,
-                    key: child.props.name,
-                  },
-                })
-              : child;
-          })
-        : children}
-    </form>
-  );
-}
+export const Select = ({
+  name,
+  label,
+  register,
+  errors,
+  required,
+  type,
+  validationSchema,
+  options,
+  ...rest
+}) => (
+  <div className={styles.Input}>
+    <label htmlFor={name}>
+      {label}
+      {required && "*"}
+    </label>
 
-export function Input({ register, name, label, errors, ...rest }) {
-  return (
-    <>
-      <label className={styles.Input}>{label}</label>
-      <input {...register(name)} {...rest} />
-      {errors?.[name] && <p>This field is required</p>}
-    </>
-  );
-}
+    <select
+      className={styles.Select}
+      id={name}
+      name={name}
+      type={type}
+      {...rest}
+      {...register(name, validationSchema)}
+    >
+      {options.map((value, index) => (
+        <option key={index} value={value}>
+          {value}
+        </option>
+      ))}
+    </select>
 
-export function Select({ register, options, name, label, ...rest }) {
-  return (
-    <>
-      <label>{label}</label>
-      <select className={styles.Select} {...register(name)} {...rest}>
-        {options.map((value, index) => (
-          <option key={index} value={value}>
-            {value}
-          </option>
-        ))}
-      </select>
-    </>
-  );
-}
+    {errors && errors[name]?.type === "required" && (
+      <span className="error">{errors[name]?.message}</span>
+    )}
+  </div>
+);

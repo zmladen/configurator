@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "../../components/Button";
-import { Form, Input } from "../../components/Forms";
+// import { Form, Input } from "../../components/Forms";
 import { useUser } from "../../context/userContext";
 import styles from "./Styles/LogIn.module.css";
 import { login } from "../../services/authService";
@@ -22,11 +22,18 @@ function LogIn(props) {
   return (
     <div className={styles.SignUp}>
       <h1>Log In</h1>
-      <Form onSubmit={onSubmit}>
+      {/* <Form onSubmit={onSubmit}>
         <Input label="E-Mail" name="email" required={true} />
-        <Input label="Password" name="password" type="password" required={true} />
-        <Button className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20">Log In</Button>
-      </Form>
+        <Input
+          label="Password"
+          name="password"
+          type="password"
+          required={true}
+        />
+        <Button className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20">
+          Log In
+        </Button>
+      </Form> */}
     </div>
   );
 }

@@ -16,7 +16,11 @@ if sys.platform == "win32":
     elif platform.architecture()[0] == '64bit':
         # for 64-bit version
         
-        sys.path.append("C://Users/mzec/AppData/Local/Programs/FreeCAD 0.19.3//bin")
+        # PC
+        sys.path.append("C://Program Files//FreeCAD 0.20//bin")
+        
+        # Laptop
+        # sys.path.append("C://Users/mzec/AppData/Local/Programs/FreeCAD 0.19.3//bin")
 
         # sys.path.append(os.environ["ProgramW6432"] + "/FreeCAD 0.19/bin")
         # sys.path.append(os.environ["ProgramW6432"] + "/FreeCAD 0.19/bin")

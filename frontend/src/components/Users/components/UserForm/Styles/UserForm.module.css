@@ -1,3 +1,12 @@
 .UserForm {
+  margin-top: 10px;
+}
 
+.TwoFields {
+  display: flex;
+  justify-content: space-between;
+}
+
+.TwoFields > * {
+  flex: 0.495; /* sets the flex-grow property to 1, making the elements take up equal space */
 }
