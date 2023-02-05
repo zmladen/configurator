@@ -35,13 +35,9 @@ fakeReferenceMachinesDatabaseURL = os.path.normpath(os.path.join(
     os.getcwd(), "..\\fakeDatabases", "products", "referenceMachines"))
 
 
-def getAllWires():
-    return json.load(open(fakeWiresDatabaseURL))["wires"]
-
 
 def getAllUsers():
     return json.load(open(fakeUserDatabaseURL))["users"]
-
 
 def getUser(fieldname, value):
     """Gets the user by ID."""
@@ -54,13 +50,11 @@ def getUser(fieldname, value):
 
     return None
 
-
 def doesUserExist(email):
     for user in json.load(open(fakeUserDatabaseURL))["users"]:
         if user["email"] == email:
             return True
     return False
-
 
 def deleteUser(user):
 
@@ -72,7 +66,6 @@ def deleteUser(user):
         json.dump({"users": new_users}, outfile, indent=4)
 
     return new_users
-
 
 def editUser(user):
     users = json.load(open(fakeUserDatabaseURL))["users"]
@@ -91,7 +84,6 @@ def editUser(user):
         return user
     else:
         return False
-
 
 def addNewUser(user):
     """Gets the user by ID."""
@@ -115,11 +107,13 @@ def addNewUser(user):
 
     return False
 
+def getAllParts():
+
+    return getAllChokes() + getAllBrushes() + getAllWires()
 
 def getAllMaterials():
 
     return getAllCommutatorMaterials() + getAllMetalMaterials() + getAllMagnetMaterials()
-
 
 def getAllCommutatorMaterials():
     commutator = []
@@ -131,29 +125,6 @@ def getAllCommutatorMaterials():
 
     return commutator
 
-
-def getAllChokes():
-    chokes = []
-    for path, subdirs, files in os.walk(fakeChokesDatabaseURL):
-        for filename in files:
-            if filename.endswith(".json"):
-                choke = json.load(open(os.path.join(path, filename)))
-                chokes.append(choke)
-
-    return chokes
-
-
-def getAllBrushes():
-    brushes = []
-    for path, subdirs, files in os.walk(fakeBrushesMaterialsDatabaseURL):
-        for filename in files:
-            if filename.endswith(".json"):
-                material = json.load(open(os.path.join(path, filename)))
-                brushes.append(material)
-
-    return brushes
-
-
 def getAllMetalMaterials():
     metals = []
     for path, subdirs, files in os.walk(fakeMetalMaterialsDatabaseURL):
@@ -163,7 +134,6 @@ def getAllMetalMaterials():
                 metals.append(material)
 
     return metals
-
 
 def getAllMagnetMaterials():
     magnets = []
@@ -175,6 +145,28 @@ def getAllMagnetMaterials():
 
     return magnets
 
+def getAllChokes():
+    chokes = []
+    for path, subdirs, files in os.walk(fakeChokesDatabaseURL):
+        for filename in files:
+            if filename.endswith(".json"):
+                choke = json.load(open(os.path.join(path, filename)))
+                chokes.append(choke)
+
+    return chokes
+
+def getAllBrushes():
+    brushes = []
+    for path, subdirs, files in os.walk(fakeBrushesMaterialsDatabaseURL):
+        for filename in files:
+            if filename.endswith(".json"):
+                material = json.load(open(os.path.join(path, filename)))
+                brushes.append(material)
+
+    return brushes
+
+def getAllWires():
+    return json.load(open(fakeWiresDatabaseURL))["wires"]
 
 def getAllReferenceMachines():
     controlcircuits = getControlCircuits()
@@ -210,7 +202,6 @@ def getAllReferenceMachines():
                     time, voltages, 15)
 
     return referenceMachines
-
 
 def __getMachineParametersBasedOnId(machine=None, replaceECU=True, controlcircuits=[], materials=[], phaseConnections=[], coilConnections=[], brushes=[], chokes=[]):
 
@@ -258,7 +249,6 @@ def __getMachineParametersBasedOnId(machine=None, replaceECU=True, controlcircui
 
     return machine
 
-
 def getMachine(fieldname, value):
     """Gets the machine by, e.g. ID."""
     machines = getAllReferenceMachines()
@@ -269,20 +259,16 @@ def getMachine(fieldname, value):
 
     return None
 
-
 def getAllMachineTypes():
     return json.load(open(fakeReferenceMachineTypesURL))["types"]
 
-
 def getAllMaterialTypes():
     return json.load(open(fakeMaterialTypesURL))["types"]
-
 
 def getMaterial(fieldname, value):
     for material in getAllMaterials():
         if material[fieldname] == value:
             return material
-
 
 def token_required(f):
     @ wraps(f)
