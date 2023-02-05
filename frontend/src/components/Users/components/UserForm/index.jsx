@@ -6,11 +6,7 @@ import Container from "../../../Container";
 import Button from "../../../Button";
 import ButtonGroup from "../../../ButtonGroup";
 import { Input, TextArea, Select } from "../../../Forms";
-import {
-  fetchUsers,
-  addUser,
-  editUser,
-} from "../../../../services/userService";
+import { fetchUsers, addUser, editUser } from "../../../../services/userService";
 import styles from "./Styles/UserForm.module.css";
 
 function UserForm(props) {
@@ -18,7 +14,7 @@ function UserForm(props) {
   const [loader, setLoader] = useState(false);
   const [users, setUsers] = useState([]);
   const [user, setUser] = useState({});
-  const [id, setId] = useState(useParams().id);
+  const { id } = useParams();
 
   const {
     register,
@@ -30,6 +26,7 @@ function UserForm(props) {
       firstname: user?.firstname,
       lastname: user?.lastname,
       email: user?.email,
+      company: user?.company,
       gender: user?.gender || "Male",
       username: user?.username,
       password: user?.password,
@@ -49,34 +46,33 @@ function UserForm(props) {
     };
     getUsers();
     setLoader(false);
-    setUser(users.find((item) => item.id == id));
+    setUser(users.find((item) => item.id === id));
 
     reset({
       ...user,
-      mobileTelephone: user.telephone.mobile,
-      officeTelephone: user.telephone.mobile,
+      mobileTelephone: user?.telephone?.mobile,
+      officeTelephone: user?.telephone?.mobile,
     });
   }, [users.length, user]);
 
   const onSubmit = (data) => {
-    console.log(data);
-    // user
-    //   ? editUser(data)
-    //       .then((response) => {
-    //         alert(response.data);
-    //         navigate(-1);
-    //       })
-    //       .catch(({ response }) => {
-    //         alert(response.data);
-    //       })
-    //   : addUser(data)
-    //       .then((response) => {
-    //         alert(response.data);
-    //         navigate(-1);
-    //       })
-    //       .catch(({ response }) => {
-    //         alert(response.data);
-    //       });
+    user
+      ? editUser(data)
+          .then((response) => {
+            alert(response.data);
+            navigate(-1);
+          })
+          .catch(({ response }) => {
+            alert(response.data);
+          })
+      : addUser(data)
+          .then((response) => {
+            alert(response.data);
+            navigate(-1);
+          })
+          .catch(({ response }) => {
+            alert(response.data);
+          });
   };
 
   return (
@@ -103,67 +99,26 @@ function UserForm(props) {
 
           <Input label="E-Mail" name="email" type="email" register={register} />
 
-          <Select
-            label="Gender"
-            name="gender"
-            options={["Male", "Female"]}
-            register={register}
-          />
+          <Input label="Company" name="company" register={register} />
+
+          <Select label="Gender" name="gender" options={["Male", "Female"]} register={register} />
 
           <div className={styles.TwoFields}>
-            <Select
-              label="Admin?"
-              name="admin"
-              options={["Yes", "No"]}
-              register={register}
-            />
-            <Select
-              label="Status"
-              defaultValue={user?.status ? "Active" : "Deactive"}
-              name="status"
-              options={["Active", "Deactive"]}
-              register={register}
-            />
+            <Select label="Admin?" name="admin" options={["Yes", "No"]} register={register} />
+            <Select label="Status" defaultValue={user?.status ? "Active" : "Deactive"} name="status" options={["Active", "Deactive"]} register={register} />
           </div>
 
           <div className={styles.TwoFields}>
-            <Input
-              label="Mobile Tel."
-              name="mobileTelephone"
-              register={register}
-            />
-            <Input
-              label="Office Tel."
-              name="officeTelephone"
-              register={register}
-            />
+            <Input label="Mobile Tel." name="mobileTelephone" register={register} />
+            <Input label="Office Tel." name="officeTelephone" register={register} />
           </div>
 
-          <TextArea
-            label="About"
-            name="about"
-            type="textarea"
-            errors={errors}
-            register={register}
-            placeholder="Enter your text..."
-          />
+          <TextArea label="About" name="about" type="textarea" errors={errors} register={register} placeholder="Enter your text..." />
 
           <ButtonGroup>
-            {user ? (
-              <Button className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20">
-                Edit Changes
-              </Button>
-            ) : (
-              <Button className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20">
-                Add New User
-              </Button>
-            )}
+            {user ? <Button className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20">Edit Changes</Button> : <Button className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20">Add New User</Button>}
 
-            <Button
-              className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20"
-              type="button"
-              onClick={() => navigate(-1)}
-            >
+            <Button className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20" type="button" onClick={() => navigate(-1)}>
               Cancel
             </Button>
           </ButtonGroup>

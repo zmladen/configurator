@@ -1,137 +1,61 @@
 {
-  "users": [
-    {
-      "id": "34542343423432",
-      "firstname": "Mladen",
-      "lastname": "Zec",
-      "username": "zmladen",
-      "email": "zmladen@gmail.com",
-      "admin": "Yes",
-      "password": "sha256$9C1gmSA2$1a6f6c7256dc14b1c2a9a16d8470369623b9a2f922d8b6218e7e7f0c3f05e9fb",
-      "public_id": "e19bf5b1-6c72-48d3-b212-8323e1cc95f2",
-      "status": "Active",
-      "gender": "Male",
-      "created": "22.01.2023",
-      "telephone": {
-        "mobile": "+491709171564",
-        "office": "+491233434356"
-      }
-    },
-    {
-      "id": "348324832-324324-3423-4",
-      "firstname": "Marko",
-      "lastname": "Markovic",
-      "username": "mmarkovic",
-      "email": "mmarkovic@gmail.com",
-      "admin": "No",
-      "password": "sha256$9C1gmSA2$1a6f6c7256dc14b1c2a9a16d8470369623b9a2f922d8b6218e7e7f0c3f05e9fb",
-      "public_id": "e19bf5b1-6c72-48d3-b212-8323e1cc95f2",
-      "status": "Active",
-      "gender": "Female",
-      "created": "22.01.2023",
-      "telephone": {
-        "mobile": "+491709171564",
-        "office": "+491233434356"
-      }
-    },
-    {
-      "id": "a18a980b-26bb-492c-a575-3bfa5c8d98fd",
-      "firstname": "Mladen",
-      "lastname": "Zec",
-      "username": "zmladen",
-      "gender": "Male",
-      "email": "zmladen@gmail.com",
-      "admin": "Yes",
-      "password": "sha256$p0F3GcudAyjHiKwY$8980ef3878fa7bb6945fc83585841a6663ef36a8a0c1a92948ad6b5cc1645d39",
-      "public_id": "e19bf5b1-6c72-48d3-b212-8323e1cc95f2",
-      "status": "Active",
-      "created": "22.01.2023",
-      "telephone": {
-        "mobile": "+491709171564",
-        "office": "+491233434356"
-      }
-    },
-    {
-      "id": "9a4a977d-0c95-4a54-a4fb-85aad973d01b",
-      "firstname": "Mladen",
-      "lastname": "Zec",
-      "gender": "Male",
-      "username": "zmladen",
-      "email": "zmladen@gmail.com",
-      "admin": "Yes",
-      "password": "sha256$giPI9i7AyCAQUcv7$494bc0d4cdb510f08962a8ae8309a4e2543f745db16417db30c9c22f46d58d0a",
-      "public_id": "e19bf5b1-6c72-48d3-b212-8323e1cc95f2",
-      "status": "Active",
-      "created": "22.01.2023",
-      "telephone": {
-        "mobile": "+491709171564",
-        "office": "+491233434356"
-      }
-    },
-    {
-      "id": "1a9f1f2d-8707-437e-b083-8249939aec64",
-      "firstname": "Mladen",
-      "lastname": "Zec",
-      "gender": "female",
-      "username": "zmladen",
-      "email": "zmladen@gmail.com",
-      "admin": "Yes",
-      "password": "sha256$QeDdj8heW6c6H494$400088f359d4ef2b6968df2106fc13787254f6f1186d4b98f366b879f15da40f",
-      "public_id": "e19bf5b1-6c72-48d3-b212-8323e1cc95f2",
-      "status": "Active",
-      "created": "22.01.2023",
-      "telephone": {
-        "mobile": "+491709171564",
-        "office": "+491233434356"
-      }
-    },
-    {
-      "id": "79303e39-302e-4404-804c-f479f17da22c",
-      "firstname": "Mladen",
-      "lastname": "Zec",
-      "username": "zmladen",
-      "email": "zmladen@gmail.com",
-      "admin": "Yes",
-      "password": "sha256$aVpuIl9KoQX2qjMk$62d084d3a72d149ef006beae8728759d69ae7934f1bc47db2d9a58d62e8de5a4",
-      "public_id": "e19bf5b1-6c72-48d3-b212-8323e1cc95f2",
-      "status": "Active",
-      "created": "22.01.2023",
-      "telephone": {
-        "mobile": "+491709171564",
-        "office": "+491233434356"
-      }
-    },
-    {
-      "firstname": "asd",
-      "lastname": "asd",
-      "email": "zmladenn@gmail.com",
-      "username": "sadsdas",
-      "password": "sha256$C3unNP155zEBuXVh$bbeaae618d703d2655797fe4d9c1e28319180693040c45dbcea398ce61f9c62c",
-      "user": "No",
-      "status": "Active",
-      "admin": "Yes",
-      "telephone": {
-        "office": "017624236479",
-        "mobile": "+491709171564"
-      },
-      "created": "2023-01-27 17:11:09",
-      "id": "e00a0b45-dff2-4ae4-bed4-0f5517d4bc10"
-    },
-    {
-      "firstname": "asd",
-      "lastname": "asd",
-      "email": "zmladencn@gmail.com",
-      "username": "sadsdas",
-      "password": "sha256$yjPh2FED4uG3YklA$7f04bb0dd92c22ce5c935cb90de22356a15a4f69f8d347333fadd5b525851d71",
-      "user": "No",
-      "status": "Deactive",
-      "admin": "Yes",
-      "telephone": {
-        "office": "017624236479",
-        "mobile": "+491709171564"
-      },
-      "created": "2023-01-27 17:12:54",
-      "id": "757893a1-b8a2-4206-a7bc-7dcd316faa80"
-    }
-  ]
+    "users": [
+        {
+            "id": "34542343423432",
+            "firstname": "Mladen",
+            "lastname": "Zec",
+            "username": "zmladen",
+            "email": "zmladen@gmail.com",
+            "admin": "Yes",
+            "password": "sha256$9C1gmSA2$1a6f6c7256dc14b1c2a9a16d8470369623b9a2f922d8b6218e7e7f0c3f05e9fb",
+            "public_id": "e19bf5b1-6c72-48d3-b212-8323e1cc95f2",
+            "status": "Active",
+            "gender": "Male",
+            "created": "22.01.2023",
+            "telephone": {
+                "office": "+491709171564",
+                "mobile": "+491709171564"
+            },
+            "lastLogin": "2023-02-05 14:14:57",
+            "loginCounts": 7,
+            "company": "",
+            "about": "Something about me. This message was eddited..."
+        },
+        {
+            "id": "348324832-324324-3423-4",
+            "firstname": "Marko",
+            "lastname": "Markovic",
+            "username": "mmarkovic",
+            "email": "mmarkovic@gmail.com",
+            "admin": "No",
+            "password": "sha256$9C1gmSA2$1a6f6c7256dc14b1c2a9a16d8470369623b9a2f922d8b6218e7e7f0c3f05e9fb",
+            "public_id": "e19bf5b1-6c72-48d3-b212-8323e1cc95f2",
+            "status": "Active",
+            "gender": "Female",
+            "created": "22.01.2023",
+            "telephone": {
+                "office": "+491709171564",
+                "mobile": "+491709171564"
+            },
+            "company": "",
+            "about": "Also eddited messsage ;)..."
+        },
+        {
+            "firstname": "Petar",
+            "lastname": "Petrovc",
+            "username": "ppetrovic",
+            "password": "sha256$Y9fPj6vCuRlFwoM4$1ec1e5cd63aa5a6a2777b447b09d6e8bbf629cc1db1ee99bf8296befe7764a6c",
+            "email": "ppetrovic@gmail.com",
+            "gender": "Male",
+            "admin": "Yes",
+            "status": "Active",
+            "about": "the message",
+            "telephone": {
+                "office": "017624236479",
+                "mobile": "+491709171564"
+            },
+            "created": "2023-01-29 09:32:21",
+            "id": "604916f4-d661-44f7-ba06-423c402c1dff"
+        }
+    ]
 }

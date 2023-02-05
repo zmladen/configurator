@@ -45,3 +45,13 @@ align-items: center;
 .contact {
   margin-top: 2rem;
 }
+
+.history {
+  margin-top: 2rem;
+}
+
+.largeNumber {
+  font-size: 3rem;
+  margin-left: 5px;
+  font-weight: bolder;
+}

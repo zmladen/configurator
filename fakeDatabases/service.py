@@ -1,22 +1,38 @@
 import datetime
 from flask import Flask, request, jsonify, make_response
-import os, uuid, json, jwt, jinja2, math, base64
+import os
+import uuid
+import json
+import jwt
+import jinja2
+import math
+import base64
 from werkzeug.security import generate_password_hash, check_password_hash
 from functools import wraps
 from apis.app import app
 from motorStudio.utilities.functions import *
 import numpy as np
 
-fakeUserDatabaseURL = os.path.normpath(os.path.join(os.getcwd(), os.pardir, "fakeDatabases", "users", "users.json"))
-fakeMaterialDatabaseURL = os.path.normpath(os.path.join(os.getcwd(), "..\\fakeDatabases", "materials"))
-fakeChokesDatabaseURL = os.path.normpath(os.path.join(os.getcwd(), "..\\fakeDatabases", "parts", "dc", "chokes"))
-fakeBrushesMaterialsDatabaseURL = os.path.normpath(os.path.join(os.getcwd(), "..\\fakeDatabases", "parts", "dc", "brushes"))
-fakeCommutatorMaterialsDatabaseURL = os.path.normpath(os.path.join(os.getcwd(), "..\\fakeDatabases", "materials", "commutator"))
-fakeMagnetMaterialsDatabaseURL = os.path.normpath(os.path.join(os.getcwd(), "..\\fakeDatabases", "materials", "magnets"))
-fakeMetalMaterialsDatabaseURL = os.path.normpath(os.path.join(os.getcwd(), "..\\fakeDatabases", "materials", "metals"))
-fakeReferenceMachineTypesURL = os.path.normpath(os.path.join(os.getcwd(), "..\\fakeDatabases", "machineTypes", "machineTypes.json"))
-fakeWiresDatabaseURL = os.path.normpath(os.path.join(os.getcwd(), "..\\fakeDatabases", "parts", "wires", "wires.json"))
-fakeReferenceMachinesDatabaseURL = os.path.normpath(os.path.join(os.getcwd(), "..\\fakeDatabases", "products", "referenceMachines"))
+fakeUserDatabaseURL = os.path.normpath(os.path.join(
+    os.getcwd(), os.pardir, "fakeDatabases", "users", "users.json"))
+fakeMaterialDatabaseURL = os.path.normpath(
+    os.path.join(os.getcwd(), "..\\fakeDatabases", "materials"))
+fakeChokesDatabaseURL = os.path.normpath(os.path.join(
+    os.getcwd(), "..\\fakeDatabases", "parts", "dc", "chokes"))
+fakeBrushesMaterialsDatabaseURL = os.path.normpath(os.path.join(
+    os.getcwd(), "..\\fakeDatabases", "parts", "dc", "brushes"))
+fakeCommutatorMaterialsDatabaseURL = os.path.normpath(os.path.join(
+    os.getcwd(), "..\\fakeDatabases", "materials", "commutator"))
+fakeMagnetMaterialsDatabaseURL = os.path.normpath(os.path.join(
+    os.getcwd(), "..\\fakeDatabases", "materials", "magnets"))
+fakeMetalMaterialsDatabaseURL = os.path.normpath(os.path.join(
+    os.getcwd(), "..\\fakeDatabases", "materials", "metals"))
+fakeReferenceMachineTypesURL = os.path.normpath(os.path.join(
+    os.getcwd(), "..\\fakeDatabases", "machineTypes", "machineTypes.json"))
+fakeWiresDatabaseURL = os.path.normpath(os.path.join(
+    os.getcwd(), "..\\fakeDatabases", "parts", "wires", "wires.json"))
+fakeReferenceMachinesDatabaseURL = os.path.normpath(os.path.join(
+    os.getcwd(), "..\\fakeDatabases", "products", "referenceMachines"))
 
 
 def getAllWires():
@@ -56,6 +72,25 @@ def deleteUser(user):
         json.dump({"users": new_users}, outfile, indent=4)
 
     return new_users
+
+
+def editUser(user):
+    users = json.load(open(fakeUserDatabaseURL))["users"]
+
+    index = -1
+
+    for i, item in enumerate(users):
+        if item["id"] == user["id"]:
+            index = i
+            break
+
+    if index != -1:
+        users[index] = user
+        with open(fakeUserDatabaseURL, "w") as outfile:
+            json.dump({"users": users}, outfile, indent=4)
+        return user
+    else:
+        return False
 
 
 def addNewUser(user):
@@ -154,7 +189,8 @@ def getAllReferenceMachines():
         for filename in files:
             if filename.endswith(".json"):
                 machine = json.load(open(os.path.join(path, filename)))
-                referenceMachines.append(__getMachineParametersBasedOnId(machine, True, controlcircuits, materials, phaseConnections, coilConnections, brushes, chokes))
+                referenceMachines.append(__getMachineParametersBasedOnId(
+                    machine, True, controlcircuits, materials, phaseConnections, coilConnections, brushes, chokes))
 
     for machine in referenceMachines:
         if "Induced Voltage" in machine["design"]["Nameplate"]:

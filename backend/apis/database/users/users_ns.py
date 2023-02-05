@@ -1,11 +1,13 @@
-import jwt, json
+import jwt
+import json
 import datetime
 from flask import request, make_response, jsonify
 from flask_restx import Namespace, Resource, fields
-from fakeDatabases.service import addNewUser, getAllUsers, deleteUser
+from fakeDatabases.service import addNewUser, getAllUsers, deleteUser, editUser
 from ...app import app
 
-api = Namespace("users", description="Creates a new user and gets all users from the database.")
+api = Namespace(
+    "users", description="Creates a new user and gets all users from the database.")
 
 custom_header1 = {
     "x-access-token": {
@@ -27,15 +29,12 @@ user = api.model(
 )
 
 
-
-
 @api.route("/")
 class UsersView(Resource):
 
     # @api.expect(user)
     def delete(self):
-        print("Delete")
-        
+
         data = json.loads(request.data)
 
         try:
@@ -44,12 +43,11 @@ class UsersView(Resource):
         except:
             return make_response(jsonify("User with the E-Mail: {} could not be deleted."), 400)
 
-
     @api.expect(user)
     def put(self):
-        """Creates the new or edits and existing user."""
+        """To edit user"""
         data = request.get_json()
-        
+
         data["telephone"] = {
             "office": data["officeTelephone"],
             "mobile": data["mobileTelephone"]
@@ -58,33 +56,31 @@ class UsersView(Resource):
         del data["officeTelephone"]
         del data["mobileTelephone"]
 
-        print(data)
-        # user = addNewUser(data)
+        user = editUser(data)
 
-        # if user:
-        #     r = make_response("New user successfully added.", 200)
-        #     token = jwt.encode(
-        #         {
-        #             "id": user["id"],
-        #             "firstname": user["firstname"],
-        #             "lastname": user["lastname"],
-        #             "email": user["email"],
-        #             "exp": datetime.datetime.utcnow() + datetime.timedelta(minutes=30),
-        #         },
-        #         app.config["SECRET_KEY"],
-        #     )
-        #     r.headers.set("x-auth-token", token)
-        #     r.headers.set("access-control-expose-headers", "x-auth-token")
-        #     return r
+        if user:
+            r = make_response("User data successfully eddited.", 200)
+            token = jwt.encode(
+                {
+                    "id": user["id"],
+                    "firstname": user["firstname"],
+                    "lastname": user["lastname"],
+                    "email": user["email"],
+                    "exp": datetime.datetime.utcnow() + datetime.timedelta(minutes=30),
+                },
+                app.config["SECRET_KEY"],
+            )
+            r.headers.set("x-auth-token", token)
+            r.headers.set("access-control-expose-headers", "x-auth-token")
+            return r
 
-        return make_response(jsonify("User successfully updated."), 200)
-
+        return make_response(jsonify("User with the E-Mail: {} already exists. Please use another E-Mail.".format(data["email"])), 400)
 
     @api.expect(user)
     def post(self):
-        """Creates the new or edits and existing user."""
+        """Creates the new user."""
         data = request.get_json()
-        
+
         data["telephone"] = {
             "office": data["officeTelephone"],
             "mobile": data["mobileTelephone"]
