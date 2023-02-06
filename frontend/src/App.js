@@ -9,6 +9,7 @@ import UserForm from "./components/Users/components/UserForm";
 import UserDetail from "./components/Users/components/UserDetail";
 import { UserProvider } from "./context/userContext";
 import { MaterialsProvider } from "./context/materialsContext";
+import { PartsProvider } from "./context/partsContext";
 
 // Middleware warning solution
 // https://stackoverflow.com/questions/70469717/cant-load-a-react-app-after-starting-server
@@ -19,6 +20,7 @@ function App(props) {
       <UserProvider>
         <Header />
         <MaterialsProvider>
+          <PartsProvider>
           <Routes>
             <Route path="/" element={<WelcomePage />} />
             <Route path="/signup" element={<Signup />} />
@@ -28,6 +30,8 @@ function App(props) {
             <Route path="/users/user_detail/:id" element={<UserDetail />} />
             <Route path="/configurator" element={<Configurator />} />
           </Routes>
+          </PartsProvider>
+          
         </MaterialsProvider>
       </UserProvider>
     </>
