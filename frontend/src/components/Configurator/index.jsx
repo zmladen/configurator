@@ -37,7 +37,7 @@ function Configurator() {
 
     getMaterials();
     getParts();
-    setTimeout(() => setLoading(false), 1000);
+    // setTimeout(() => setLoading(false), 1000);
   }, []);
 
   console.log(materials);

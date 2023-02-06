@@ -9,7 +9,7 @@ function Header() {
   const { user, setUser } = useUser();
 
   return (
-    <header className={styles.Header}>
+    <header id="header" className={styles.Header}>
       <Logo src={"./images/logo.svg"} alt="" to="/" />
       <p className={styles.User}>{user ? `${user.lastname}, ${user.firstname}` : "Please log in..."}</p>
       <div className={styles.ButtonGroup}>
