@@ -1,0 +1,13 @@
+{
+  "id": "7e30eadd-00c0-441a-af12-eeebf61a5887",
+  "type": "48-pin",
+  "name": "S912ZVML31F1WKF",
+  "component": "uC",
+  "supplier": "NXP",
+  "Supply Voltage (V)": 5,
+  "Supply Current Max. (A)": 68e-3,
+  "Supply Current Nom. (A)": 40e-3,
+  "PWM Frequency (Hz)": 20e3,
+  "Duty Cycle (%)": 100,
+  "Footprint (mm2)": 123
+}

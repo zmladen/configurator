@@ -1,0 +1,18 @@
+{
+  "id": "670aaef5-9ead-4892-b5fe-6249aecb4ff3",
+  "type": "Ideal",
+  "component": "transistor",
+  "name": "Ideal",
+  "supplier": "",
+  "supplier-url": "",
+  "Ton (s)": 0,
+  "Toff (s)": 0,
+  "Footprint (mm2)": 0,
+  "Current Rating RMS (A)": 100,
+  "Resistance Curves": [
+    {
+      "Temperature (deg)": [-40, -20, 0, 20, 60, 100, 140, 175],
+      "Resistance (Ohm)": [0, 0, 0, 0, 0, 0, 0, 0]
+    }
+  ]
+}

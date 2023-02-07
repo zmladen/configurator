@@ -1,0 +1,18 @@
+{
+  "id": "f489b816-41cc-44a9-bea2-8791dac78588",
+  "type": "n-type",
+  "component": "transistor",
+  "name": "IPC100N04S5-2R8",
+  "supplier": "Infineon",
+  "supplier-url": "",
+  "Ton (s)": 200e-9,
+  "Toff (s)": 200e-9,
+  "Footprint (mm2)": 123,
+  "Current Rating RMS (A)": 100,
+  "Resistance Curves": [
+    {
+      "Temperature (deg)": [-40, -20, 0, 20, 60, 100, 140, 175],
+      "Resistance (Ohm)": [0.00223, 0.00242, 0.00267, 0.002, 0.002, 0.002, 0.002, 0.002]
+    }
+  ]
+}

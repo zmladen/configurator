@@ -1,0 +1,13 @@
+{
+  "id": "ba56cc91-6902-49a2-8c51-2b69cebe9e8b",
+  "type": "Ideal",
+  "name": "Ideal",
+  "component": "uC",
+  "supplier": "",
+  "Supply Voltage (V)": 5,
+  "Supply Current Max. (A)": 0,
+  "Supply Current Nom. (A)": 0,
+  "PWM Frequency (Hz)": 20e3,
+  "Duty Cycle (%)": 100,
+  "Footprint (mm2)": 0
+}

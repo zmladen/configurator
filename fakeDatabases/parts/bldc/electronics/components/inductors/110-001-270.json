@@ -1,0 +1,12 @@
+{
+  "id": "3b040837-af64-4052-a15e-5b8c12982405",
+  "type": "ferrite-core",
+  "component": "inductor",
+  "name": "110-001-270",
+  "supplier": "Würth",
+  "supplier-url": "",
+  "Resistance (Ohm)": 6.4e-3,
+  "Inductance (H)": 2.72e-6,
+  "Tc (%/C)": 0.4041,
+  "Footprint (mm2)": 123
+}

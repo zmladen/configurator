@@ -5,7 +5,7 @@ from fakeDatabases.service import getAllParts
 api = Namespace("parts", description="Gets all parts from the database.")
 
 @api.route("/")
-class MaterialsView(Resource):
+class PartsView(Resource):
     def get(self):
         try:
             parts = getAllParts()

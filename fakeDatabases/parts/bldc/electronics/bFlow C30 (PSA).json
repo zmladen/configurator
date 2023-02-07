@@ -1,0 +1,122 @@
+{
+  "image": "",
+  "id": "1070a2c3-5307-4d54-a2c3-da98a2a66c89",
+  "type": "Internal",
+  "name": "bFlow C30 (PSA)",
+  "Parts": {
+    "Power Transistors": {
+      "Total Number": 6,
+      "Parameters": {
+        "type": "MOSFET",
+        "id": "56ed121a-3d2d-4f75-9a04-fbf036be17f2",
+        "name": "TR01",
+        "Rdson (Ohm)": 8.5e-3,
+        "Resistance Tc (%/C)": 0.869,
+        "Rise Time MOSFET (s)": 150e-9,
+        "Fall Time MOSFET (s)": 150e-9,
+        "Maximal Current Rating RMS (A)": 35
+      }
+    },
+    "Flyback Diodes": {
+      "Total Number": 6,
+      "Parameters": {
+        "type": "PN",
+        "id": "27ee0987-8179-418b-bcf4-eaa47d6331c2",
+        "name": "D1",
+        "Base Voltage (V)": 0.8,
+        "Resistance (Ohm)": 0.007,
+        "Resistance Tc (%/C)": 0.4041
+      }
+    },
+    "Reverse Polarity Protections": {
+      "Total Number": 1,
+      "Parameters": {
+        "type": "MOSFET",
+        "id": "56ed121a-3d2d-4f75-9a04-fbf036be17f2",
+        "name": "TR01",
+        "Rdson (Ohm)": 8.5e-3,
+        "Resistance Tc (%/C)": 0.869,
+        "Rise Time MOSFET (s)": 150e-9,
+        "Fall Time MOSFET (s)": 150e-9
+      }
+    },
+    "Intermediate Circuit Capacitors": {
+      "Total Number": 2,
+      "type": "Electrolytic",
+      "id": "832ddca1-2098-46e8-8ad4-fc4706265d81",
+      "name": "C107",
+      "Capacitance (F)": 1400e-6,
+      "Resistance (Ohm)": 0.030,
+      "Resistance Tc (%/C)": 0.4041
+    },
+    "Intermediate Circuit Inductances": {
+      "Total Number": 1,
+      "type": "Magnetic",
+      "id": "a914e205-92dd-41f0-b3fb-2e980bae97cc",
+      "name": "L101",
+      "Inductance (H)": 1.3e-6,
+      "Resistance (Ohm)": 0.009,
+      "Resistance Tc (%/C)": 0.4041
+    },
+    "Microcontroller": {
+      "type": "16bit",
+      "id": "2b8ea1d8-be8d-4e65-bb67-467d14ec04dd",
+      "name": "uC",
+      "Supply Voltage (V)": 5,
+      "Supply Current (A)": 40e-3,
+      "PWM Frequency (Hz)": 16e3,
+      "Duty Cycle (%)": 100
+    },
+    "PCB": {
+      "type": "Double-Sided",
+      "id": "2b8ea1d8-be8d-4e65-bb67-467d14ec04dd",
+      "name": "PCB",
+      "Conduction Resistance (Ohm)": 0,
+      "Resistance Tc (%/C)": 0
+    },
+    "Current Shunts": {
+      "Total Number": 1,
+      "type": "single",
+      "id": "ea9bdd6c-047b-47d3-9c35-aced1a29568a",
+      "name": "Rs",
+      "Resistance (Ohm)": 5e-3,
+      "Resistance Tc (%/C)": 100e-4
+    }
+  },
+  "Power Source": {
+    "type": "Universal",
+    "id": "60daed59-0326-4e16-b0ba-680fb31a5eb7",
+    "name": "DC Source",
+    "Supply Voltage (V)": 12,
+    "Inner Resistance (Ohm)": 0.002,
+    "Resistance Tc (%/C)": 0.4041
+  },
+  "End-Winding Inductance": {
+    "type": "Magnetic",
+    "id": "a914e205-92dd-41f0-b3fb-2e980bae97cc",
+    "name": "Lend",
+    "Inductance (H)": 100e-6,
+    "Resistance (Ohm)": 0.005,
+    "Resistance Tc (%/C)": 0.393
+  },
+  "Cable Resistance": {
+    "type": "simple",
+    "id": "ea9bdd6c-047b-47d3-9c35-aced1a29568a",
+    "name": "Rc",
+    "Resistance (Ohm)": 0,
+    "Resistance Tc (%/C)": 0.393
+  },
+  "Control Algorithm": {
+    "name": "foc",
+    "id": "0123749a-4fc7-44fa-b7c5-e2e60fef989e"
+  },
+  "Phase Advance Angle (deg.el.)": 0,
+  "FOC Control Strategy": {
+    "Used": { "name": "Normal", "id": "641bbc01-e32f-4452-9fc4-48218c6c14a1" },
+    "Options": [
+      { "name": "Normal", "id": "641bbc01-e32f-4452-9fc4-48218c6c14a1" },
+      { "name": "Maximum Torque per Amper", "id": "b7827a7c-9d98-4264-bee3-20df9f6383b6" },
+      { "name": "Flux-Weakening", "id": "96d812a5-8b5d-47ea-8893-d19b7c8030bf" }
+    ]
+  }
+}

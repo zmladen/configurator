@@ -1,0 +1,10 @@
+{
+  "id": "fbfaad1a-1641-4da9-a98e-b688943d9964",
+  "type": "ceramic",
+  "component": "resistor",
+  "name": "CRE2512FZR005E3",
+  "supplier": "Bourns",
+  "Resistance (Ohm)": 5e-3,
+  "Tc (%/C)": 0.01,
+  "Footprint (mm2)": 123
+}

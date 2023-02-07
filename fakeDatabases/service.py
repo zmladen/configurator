@@ -13,28 +13,17 @@ from apis.app import app
 from motorStudio.utilities.functions import *
 import numpy as np
 
-fakeUserDatabaseURL = os.path.normpath(os.path.join(
-    os.getcwd(), os.pardir, "fakeDatabases", "users", "users.json"))
-fakeMaterialDatabaseURL = os.path.normpath(
-    os.path.join(os.getcwd(), "..\\fakeDatabases", "materials"))
-fakeChokesDatabaseURL = os.path.normpath(os.path.join(
-    os.getcwd(), "..\\fakeDatabases", "parts", "dc", "chokes"))
-fakeBrushesMaterialsDatabaseURL = os.path.normpath(os.path.join(
-    os.getcwd(), "..\\fakeDatabases", "parts", "dc", "brushes"))
-fakeCommutatorMaterialsDatabaseURL = os.path.normpath(os.path.join(
-    os.getcwd(), "..\\fakeDatabases", "materials", "commutator"))
-fakeMagnetMaterialsDatabaseURL = os.path.normpath(os.path.join(
-    os.getcwd(), "..\\fakeDatabases", "materials", "magnets"))
-fakeMetalMaterialsDatabaseURL = os.path.normpath(os.path.join(
-    os.getcwd(), "..\\fakeDatabases", "materials", "metals"))
-fakeReferenceMachineTypesURL = os.path.normpath(os.path.join(
-    os.getcwd(), "..\\fakeDatabases", "machineTypes", "machineTypes.json"))
-fakeWiresDatabaseURL = os.path.normpath(os.path.join(
-    os.getcwd(), "..\\fakeDatabases", "parts", "wires", "wires.json"))
-fakeReferenceMachinesDatabaseURL = os.path.normpath(os.path.join(
-    os.getcwd(), "..\\fakeDatabases", "products", "referenceMachines"))
-
-
+fakeUserDatabaseURL = os.path.normpath(os.path.join(os.getcwd(), os.pardir, "fakeDatabases", "users", "users.json"))
+fakeMaterialDatabaseURL = os.path.normpath(os.path.join(os.getcwd(), "..\\fakeDatabases", "materials"))
+fakeChokesDatabaseURL = os.path.normpath(os.path.join(os.getcwd(), "..\\fakeDatabases", "parts", "dc", "chokes"))
+fakeBrushesMaterialsDatabaseURL = os.path.normpath(os.path.join(os.getcwd(), "..\\fakeDatabases", "parts", "dc", "brushes"))
+fakeCommutatorMaterialsDatabaseURL = os.path.normpath(os.path.join(os.getcwd(), "..\\fakeDatabases", "materials", "commutator"))
+fakeMagnetMaterialsDatabaseURL = os.path.normpath(os.path.join(os.getcwd(), "..\\fakeDatabases", "materials", "magnets"))
+fakeMetalMaterialsDatabaseURL = os.path.normpath(os.path.join(os.getcwd(), "..\\fakeDatabases", "materials", "metals"))
+fakeReferenceMachineTypesURL = os.path.normpath(os.path.join(os.getcwd(), "..\\fakeDatabases", "machineTypes", "machineTypes.json"))
+fakeWiresDatabaseURL = os.path.normpath(os.path.join(os.getcwd(), "..\\fakeDatabases", "parts", "wires", "wires.json"))
+fakeReferenceMachinesDatabaseURL = os.path.normpath(os.path.join(os.getcwd(), "..\\fakeDatabases", "products", "machines"))
+fakeElectronicsDatabaseURL = os.path.join(os.getcwd(), "..\\fakeDatabases", "parts", "bldc", "electronics")
 
 def getAllUsers():
     return json.load(open(fakeUserDatabaseURL))["users"]
@@ -112,7 +101,6 @@ def getAllParts():
     return getAllChokes() + getAllBrushes() + getAllWires()
 
 def getAllMaterials():
-
     return getAllCommutatorMaterials() + getAllMetalMaterials() + getAllMagnetMaterials()
 
 def getAllCommutatorMaterials():
@@ -168,42 +156,57 @@ def getAllBrushes():
 def getAllWires():
     return json.load(open(fakeWiresDatabaseURL))["wires"]
 
-def getAllReferenceMachines():
+def getAllMachines():
     controlcircuits = getControlCircuits()
     materials = getAllMaterials()
-    phaseConnections = getPhaseConnections()
-    coilConnections = getCoilConnections()
     chokes = getAllChokes()
     brushes = getAllBrushes()
+    phaseConnections = [
+      { "name": "star", "id": "6ef70fa6-cbf5-4450-b121-dfa1f41d0988" },
+      { "name": "delta", "id": "ccf0dde7-eae8-4877-8c5b-ddab35903deb" }
+    ]
+    coilConnections = [
+      { "name": "serial", "id": "b0ce8956-02d8-4b7d-a785-15bef81a569c" },
+      { "name": "parallel", "id": "7384b066-3929-403f-949b-f9f1a484350d" }
+    ]
 
     referenceMachines = []
     for path, subdirs, files in os.walk(fakeReferenceMachinesDatabaseURL):
         for filename in files:
             if filename.endswith(".json"):
                 machine = json.load(open(os.path.join(path, filename)))
-                referenceMachines.append(__getMachineParametersBasedOnId(
-                    machine, True, controlcircuits, materials, phaseConnections, coilConnections, brushes, chokes))
+                referenceMachines.append(__getMachineParametersBasedOnId(machine, True, controlcircuits, materials, phaseConnections, coilConnections, brushes, chokes))
 
     for machine in referenceMachines:
         if "Induced Voltage" in machine["design"]["Nameplate"]:
             pp = machine["design"]["Rotor"]["Pole Number"] / 2
-            refSpeed = machine["design"]["Nameplate"][
-                "Induced Voltage"]["speed (rpm)"]
-            voltages = machine["design"]["Nameplate"][
-                "Induced Voltage"]["VA"]["VA (V)"]
-            angles = machine["design"]["Nameplate"][
-                "Induced Voltage"]["VA"]["angle (deg)"]
+            refSpeed = machine["design"]["Nameplate"]["Induced Voltage"]["speed (rpm)"]
+            voltages = machine["design"]["Nameplate"]["Induced Voltage"]["VA"]["VA (V)"]
+            angles = machine["design"]["Nameplate"]["Induced Voltage"]["VA"]["angle (deg)"]
             # time = [60 / pp * 180 * item / refSpeed for item in angles]
             # time = [1 / pp * 2 * math.pi / 180 * item * 60 / 2 / math.pi / refSpeed for item in angles]
-            time = [(item * math.pi / 180) / (2 * math.pi * refSpeed / 60)
-                    for item in angles]
+            time = [(item * math.pi / 180) / (2 * math.pi * refSpeed / 60) for item in angles]
             if len(time):
-                machine["design"]["Nameplate"]["Fourier Coefficients EMF"] = getFFTCoefficients(
-                    time, voltages, 15)
+                machine["design"]["Nameplate"]["Fourier Coefficients EMF"] = getFFTCoefficients(time, voltages, 15)
 
     return referenceMachines
 
 def __getMachineParametersBasedOnId(machine=None, replaceECU=True, controlcircuits=[], materials=[], phaseConnections=[], coilConnections=[], brushes=[], chokes=[]):
+
+    if replaceECU and 'Control Circuit' in machine["design"]:
+        controlCircuitId = machine["design"]['Control Circuit']['Used']['id']
+        machine["design"]['Control Circuit']['Used'] = next(
+            (x for x in controlcircuits if x["id"] == controlCircuitId), None)
+
+    if replaceECU and 'Winding' in machine["design"]:
+        if machine["type"]["name"] == "bldc":
+            phaseConnId = machine["design"]['Winding']['Phase Connection']['Used']['id']
+            machine["design"]['Winding']['Phase Connection']['Used'] = next(
+                (x for x in phaseConnections if x["id"] == phaseConnId), None)
+
+            coilConnId = machine["design"]['Winding']['Coil Connection']['Used']['id']
+            machine["design"]['Winding']['Coil Connection']['Used'] = next(
+                (x for x in coilConnections if x["id"] == coilConnId), None)
 
     windingMatId = machine["design"]['Winding']['Coil']['Wire']['Material']['Used']["id"]
     machine["design"]['Winding']['Coil']['Wire']['Material']['Used'] = next(
@@ -249,6 +252,7 @@ def __getMachineParametersBasedOnId(machine=None, replaceECU=True, controlcircui
 
     return machine
 
+
 def getMachine(fieldname, value):
     """Gets the machine by, e.g. ID."""
     machines = getAllReferenceMachines()
@@ -269,6 +273,17 @@ def getMaterial(fieldname, value):
     for material in getAllMaterials():
         if material[fieldname] == value:
             return material
+
+def getControlCircuits():
+    filenames = os.listdir(fakeElectronicsDatabaseURL)
+    electronics = []
+    for filename in filenames:
+        if filename.endswith(".json"):
+            electronics.append(
+                json.load(
+                    open(os.path.join(fakeElectronicsDatabaseURL, filename)))
+            )
+    return electronics
 
 def token_required(f):
     @ wraps(f)

@@ -1,0 +1,17 @@
+{
+  "id": "95876bf1-110b-44ca-aa6a-f5638f9f7124",
+  "type": "hybrid",
+  "component": "capacitor",
+  "name": "NCCHHXE350-8x10",
+  "supplier": "Nichicon",
+  "supplier-url": "",
+  "Footprint (mm2)": 50,
+  "Capacitance (F)": 350e-6,
+  "Resistance Curves": [
+    {
+      "Frequency (Hz)": 20e3,
+      "Temperature (deg)": [-40, -20, 0, 20, 60, 100, 140, 175],
+      "Resistance (Ohm)": [0.00223, 0.00242, 0.00267, 0.002, 0.002, 0.002, 0.002, 0.002]
+    }
+  ]
+}

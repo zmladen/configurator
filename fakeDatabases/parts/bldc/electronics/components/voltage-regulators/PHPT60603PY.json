@@ -1,0 +1,9 @@
+{
+  "id": "1742e43b-bb76-4b41-9206-f7f31703d9d7",
+  "type": "SMD",
+  "component": "voltage-regulator",
+  "name": "PHPT60603PY",
+  "supplier": "NXP",
+  "supplier-url": "",
+  "Footprint (mm2)": 123
+}

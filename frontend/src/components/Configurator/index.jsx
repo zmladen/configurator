@@ -7,18 +7,23 @@ import Loader from "../../components/Loader";
 import { sideMenu } from "./menu.config.js";
 import { fetchMaterials } from "../../services/materialsService";
 import { fetchParts } from "../../services/partsService";
+import { fetchMachines } from "../../services/machinesService";
 import { useMaterials } from "../../context/materialsContext";
 import { useParts } from "../../context/partsContext";
+import { useMachines } from "../../context/machinesContext";
+import styles from "./Styles/Configurator.module.css";
 
 function Configurator() {
   const { materials, setMaterials } = useMaterials();
   const { parts, setParts } = useParts();
+  const { machines, setMachines } = useMachines();
   const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     const getMaterials = async () => {
       await fetchMaterials()
-        .then((response) => {
-          setMaterials(response.data);
+        .then(({ data }) => {
+          setMaterials(data.data);
         })
         .catch(({ response }) => {
           console.log(response);
@@ -27,8 +32,18 @@ function Configurator() {
 
     const getParts = async () => {
       await fetchParts()
-        .then((response) => {
-          setParts(response.data);
+        .then(({ data }) => {
+          setParts(data.data);
+        })
+        .catch(({ response }) => {
+          console.log(response);
+        });
+    };
+
+    const getMachines = async () => {
+      await fetchMachines()
+        .then(({ data }) => {
+          setMachines(data.data);
         })
         .catch(({ response }) => {
           console.log(response);
@@ -37,26 +52,39 @@ function Configurator() {
 
     getMaterials();
     getParts();
+    getMachines();
+
     // setTimeout(() => setLoading(false), 1000);
+    setLoading(false);
   }, []);
 
   console.log(materials);
   console.log(parts);
+  console.log(machines);
 
   return (
     <>
       {loading ? (
         <Loader />
       ) : (
-        <div className="Configurator">
-          <Layout menuConfig={sideMenu}>
+        <div className={styles.configurator}>
+          <header className={styles.header}>
+            <h1>
+              <strong>BÜHLER MOTOR </strong>CONFIGURATOR
+            </h1>
+          </header>
+          {/* <Layout menuConfig={sideMenu}>
             <Main>
               <p>Page content</p>
             </Main>
             <Footer>
               <p>Footer content</p>
             </Footer>
-          </Layout>
+          </Layout> */}
+
+          {machines.map((m, i) => (
+            <p key={i}>{m.name}</p>
+          ))}
         </div>
       )}
     </>

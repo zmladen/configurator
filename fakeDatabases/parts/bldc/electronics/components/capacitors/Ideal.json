@@ -1,0 +1,17 @@
+{
+  "id": "4d63f21d-ae4d-4519-9a02-7b6e2315b669",
+  "type": "Ideal",
+  "component": "capacitor",
+  "name": "Ideal",
+  "supplier": "",
+  "supplier-url": "",
+  "Footprint (mm2)": 0,
+  "Capacitance (F)": 1000e-6,
+  "Resistance Curves": [
+    {
+      "Frequency (Hz)": 20e3,
+      "Temperature (deg)": [-40, -20, 0, 20, 60, 100, 140, 175],
+      "Resistance (Ohm)": [0, 0, 0, 0, 0, 0, 0, 0]
+    }
+  ]
+}

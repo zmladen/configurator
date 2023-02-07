@@ -1,0 +1,12 @@
+{
+  "id": "4974a06f-a6f0-4c48-8ea2-b6b08fc79fda",
+  "type": "Ideal",
+  "component": "inductor",
+  "name": "Ideal",
+  "supplier": "",
+  "supplier-url": "",
+  "Resistance (Ohm)": 0,
+  "Inductance (H)": 1e-6,
+  "Tc (%/C)": 0,
+  "Footprint (mm2)": 0
+}
