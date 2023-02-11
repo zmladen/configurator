@@ -84,7 +84,7 @@ const Table = () => {
                 {
                   <ButtonGroup>
                     <Button
-                      className="btn btn-blue pt-5 pb-5 br-25"
+                      className="btn btn-blue"
                       onClick={(e) => {
                         e.stopPropagation();
                         navigate(`user/${user.id}`);
@@ -94,7 +94,7 @@ const Table = () => {
                       Edit
                     </Button>
                     <Button
-                      className="btn btn-red pt-5 pb-5 br-25"
+                      className="btn btn-red"
                       onClick={(e) => {
                         e.stopPropagation();
 

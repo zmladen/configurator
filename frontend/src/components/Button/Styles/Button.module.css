@@ -8,7 +8,13 @@
   cursor: pointer;
   border: 0px;
   min-width: 60px;
+
+  /* Default settings */
+  border-radius: 25px;
+  padding: 10px 20px 10px 20px;
 }
+
+
 
 /* for Heroicons which are SVG elements */
 .btn svg {
@@ -51,12 +57,12 @@
 }
 
 .btn-dark {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0,16,37, 0.9);
   color: white;
 }
 
 .btn-dark:hover {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0,16,37, 1);
   color: white;
 }
 
