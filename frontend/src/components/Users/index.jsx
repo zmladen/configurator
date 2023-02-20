@@ -4,9 +4,9 @@ import styles from "./Styles/Users.module.css";
 import { fetchUsers } from "../../services/userService";
 import Table from "./components/Table";
 import Container from "../Container";
-import Button from "../../components/Button";
-import NavLink from "../../components/NavLink";
-import ButtonGroup from "../../components/ButtonGroup";
+import Button from "../Buttons/Button";
+import NavLink from "../Buttons/NavLink";
+import ButtonGroup from "../Buttons/ButtonGroup";
 import { useUser } from "../../context/userContext";
 
 function Users(props) {
@@ -25,8 +25,6 @@ function Users(props) {
     getUsers();
     setLoader(false);
   }, [users.length]);
-
-  console.log("text");
 
   return (
     <div className={styles.Users}>

@@ -1,0 +1,12 @@
+.ScrapPDF {
+  height: calc(100vh - 80px);
+    overflow-y: scroll;
+    background-color: blueviolet;
+}
+
+hr {
+  border: none;
+  border-top: 0.5px solid #e3e3e3;
+  /* height: 1px; */
+  /* margin: 0.1em 0; */
+}

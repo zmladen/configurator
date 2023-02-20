@@ -1,0 +1,52 @@
+{
+    "Characteristics": [
+        {"name":"Rated voltage", "unit":"V"},
+        {"name":"Rated power", "unit":"W"},
+        {"name":"Rated torque", "unit":"Ncm"},
+        {"name":"Rated speed", "unit":"rpm"},
+        {"name":"Rated current", "unit":"A"}
+    ],
+    "No load characteristics" :[
+        {"name":"No load speed", "unit":"rpm"},
+        {"name":"No load current", "unit":"A"}
+    ],
+    "Stall characteristics" :[
+        {"name":"Stall torque", "unit":"Ncm"},
+        {"name":"Stall current", "unit":"A"}
+    ],
+    "Performance characteristics" :[
+        {"name":"max. Output power", "unit":"W"},
+        {"name":"max. Constant torque", "unit":"A"}
+    ],
+    "Motor parameters" :[
+        {"name":"Weight", "unit":"g"},
+        {"name":"Rotor inertia", "unit":"gcm2"},
+        {"name":"Terminal resistance", "unit":"Ohm"},
+        {"name":"Inductance", "unit":"mH"},
+        {"name":"Mech. time constant", "unit":"ms"},
+        {"name":"Electr. time constant", "unit":"ms"},
+        {"name":"Speed regulation constant", "unit":"rpm/Ncm"},
+        {"name":"Torque constant", "unit":"Nc/A"},
+        {"name":"Thermal resistance", "unit":"K/W"},
+        {"name":"Thermal time constant", "unit":"min"},
+        {"name":"Axial play", "unit":"mm"},
+        {"name":"Direction of rotation", "unit":"-"},
+    ],
+    "Design" :[
+        {"name":"Commutator", "unit":"g"},
+        {"name":"RFI Protection", "unit":"g"},
+        {"name":"Insulation class", "unit":"g"},
+        {"name":"Protection class", "unit":"g"},
+        {"name":"Commutation", "unit":"g"},
+        {"name":"Armature", "unit":"g"},
+        {"name":"Magnet system", "unit":"g"},
+        {"name":"Bearings", "unit":"g"},
+        {"name":"End shields", "unit":"g"},
+        {"name":"Life expectancy**", "unit":"g"}
+    ],
+    "Operational conditions" :[
+        {"Temperature range***":"Weight", "unit":"°C"},
+        {"Axial force":"Weight", "unit":"N"},
+        {"Radial force, 10 mm from mounting surface":"Weight", "unit":"N"}
+    ]
+}

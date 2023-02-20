@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Button from "../../../Button";
-import ButtonGroup from "../../../ButtonGroup";
+import Button from "../../../Buttons/Button";
+import ButtonGroup from "../../../Buttons/ButtonGroup";
 import Modal from "../../../Modal";
 import { TrashIcon, PencilIcon } from "@heroicons/react/24/solid";
 import { deleteUser } from "../../../../services/userService";
@@ -109,10 +109,6 @@ const Table = () => {
                   </ButtonGroup>
                 }
               </td>
-
-              {/* <td>
-              {user.telephone.mobile} {user.telephone.office}
-            </td> */}
             </tr>
           ))}
         </tbody>

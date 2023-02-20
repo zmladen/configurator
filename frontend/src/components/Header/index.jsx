@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Styles/Header.module.css";
 import Logo from "../Logo";
-import NavLink from "../NavLink";
-import Button from "../Button";
+import NavLink from "../Buttons/NavLink";
+import Button from "../Buttons/Button";
 import { useUser } from "../../context/userContext";
 
 function Header() {

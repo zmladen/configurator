@@ -5,58 +5,16 @@ import Main from "../Layout/components/Main";
 import Footer from "../Layout/components/Footer";
 import Loader from "../../components/Loader";
 import { sideMenu } from "./menu.config.js";
-import { fetchMaterials } from "../../services/materialsService";
-import { fetchParts } from "../../services/partsService";
-import { fetchMachines } from "../../services/machinesService";
 import { useMaterials } from "../../context/materialsContext";
 import { useParts } from "../../context/partsContext";
-import { useMachines } from "../../context/machinesContext";
+import { useMachine } from "../../context/machineContext";
 import styles from "./Styles/Configurator.module.css";
 
 function Configurator() {
   const { materials, setMaterials } = useMaterials();
   const { parts, setParts } = useParts();
-  const { machines, setMachines } = useMachines();
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const getMaterials = async () => {
-      await fetchMaterials()
-        .then(({ data }) => {
-          setMaterials(data.data);
-        })
-        .catch(({ response }) => {
-          console.log(response);
-        });
-    };
-
-    const getParts = async () => {
-      await fetchParts()
-        .then(({ data }) => {
-          setParts(data.data);
-        })
-        .catch(({ response }) => {
-          console.log(response);
-        });
-    };
-
-    const getMachines = async () => {
-      await fetchMachines()
-        .then(({ data }) => {
-          setMachines(data.data);
-        })
-        .catch(({ response }) => {
-          console.log(response);
-        });
-    };
-
-    getMaterials();
-    getParts();
-    getMachines();
-
-    // setTimeout(() => setLoading(false), 1000);
-    setLoading(false);
-  }, []);
+  const { machines, setMachines } = useMachine();
+  const [loading, setLoading] = useState(false);
 
   console.log(materials);
   console.log(parts);

@@ -1,8 +1,87 @@
-.Form {
-  margin: 0 auto;
+.dropzone {
+  border: 1px dashed #cccccc;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  background-color: #eee;
 }
 
-input {
+.dropzone > span {
+/* background-color: aliceblue; */
+padding: 10px;
+margin: 0px;
+}
+
+.dropzone.isDragging {
+  background-color: #f7f7f7;
+}
+
+.prompt {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.fileInput {
+  display: none;
+}
+
+
+.SideBySide {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SideBySide > * {
+  flex: 0.495; /* sets the flex-grow property to 1, making the elements take up equal space */
+}
+
+.SideBySideLeft {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.FileInput  {
+  display: flex;
+  /* width: fit-content; */
+}
+
+.FileInput > button {
+  margin-left: 5px;
+}
+
+.FileInput > input {
+  /* display: none; */
+  opacity: 0;
+  position: relative;
+  z-index: 1;
+  width: 0.01px;
+}
+
+.FileInput > label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  height: fit-content;
+  cursor: pointer;
+  border: 0px;
+  min-width: 100px;
+  /* Default settings */
+  border-radius: 25px;
+  padding: 10px 20px 10px 20px;
+  background-color: rgba(0,16,37, 0.9);
+  color: white;
+  width: fit-content;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+
+.Input > input {
   display: block;
   box-sizing: border-box;
   width: 100%;
@@ -10,16 +89,23 @@ input {
   border: 1px solid #333;
   padding: 10px 15px;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 16px;
 }
+
+.FileInput > span {
+  /* display: none; */
+  margin-left: 5px;
+}
+
 
 label {
   text-align: left;
   display: block;
-  font-weight: bold;
+  font-weight: normal;
+  margin-bottom: 5px;
 }
 
-textarea {
+.TextArea > textarea {
   display: block;
   box-sizing: border-box;
   width: 100%;
@@ -31,50 +117,22 @@ textarea {
   font-size: 14px;
 }
 
-.Select {
+.Select > select {
   /* color: white; */
   width: 100%;
   padding: 5px;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
 }
 
-.Select:hover {
+.Select > select:hover {
   /* color: white; */
   background-color: #eee;
 }
 
-.Select option {
+.Select > select > option {
   font-size: 14px;
-  /* background-color: #eee; */
+  background-color: #eee;
   cursor: pointer;
-}
-
-button[type="submit"]:hover,
-input[type="submit"]:hover {
-  background: #bf1650;
-}
-
-button[type="submit"]:active,
-input[type="button"]:active,
-input[type="submit"]:active {
-  transition: 0.3s all;
-  transform: translateY(3px);
-  border: 1px solid transparent;
-  opacity: 0.8;
-}
-
-input:disabled {
-  opacity: 0.4;
-}
-
-input[type="button"]:hover {
-  transition: 0.3s all;
-}
-
-button[type="submit"],
-input[type="button"],
-input[type="submit"] {
-  -webkit-appearance: none;
 }

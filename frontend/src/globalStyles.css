@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+}
+
 body {
   color: hsl(192, 100%, 9%);
   font-family: "Poppins", sans-serif;

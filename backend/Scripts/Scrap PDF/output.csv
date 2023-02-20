@@ -1,0 +1,82 @@
+"",,,,,Characteristics*,Nenndaten*,,,,,
+"",,,,F,Rated voltage,Nennspannung,U/V,V,12,24,F
+"",,,,,Rated power,Nennleistung,P,W,4.3,4.3,
+"",,,,,,,N,,,,
+"",,,,,Rated torque,Nenndrehmoment,T /M,Ncm,1.0,1.0,
+"",,,,,,,N N,,,,
+"",,,,,Rated speed,Nenndrehzahl,n,rpm/min-1,4000,4000,
+"",,,,,,,N,,,,
+GEAR BOX-Type,Gear Motor-Type,A,L,,Rated current,Nennstrom,I,A,0.70,0.35,
+"",,,,,,,N,,,,
+"",,,,,,,,,GENERAL TOLERANCES,,MATERIAL/Material,
+3-STAGE,1.61.077.414 - 416,37.5,88.5,No load characteristics*,Leerlaufdaten*,,,,Allgemeintoleranzen ISO 2768 - mH,,-,
+"",,,,,,,,,TOLERANCING,,,
+"",,,,,,,,,Tolerierung ISO 8015,,17,
+"",,,,No load speed,Leerlaufdrehzahl,n MASS/Ma6ss1e25O,rpm/min-1,5900,"14(225,91 g)",,DIMENSION/Abmessungen (70.99 x 220.48 x 190.54),
+"",,,,,,,,,,,1,
+"",,,,No load current,Leerlaufstrom,I,A,0.09,CHANGE 0DE.S0C4RIPTION/Änderungsbeschreibung,,CHANGE NO./Änd.-Nr: PREV. VER./Vor.-V5e°rs.:,CREATED/erstellt
+"",,,,,,O,,,0x INITAL EDITION,,,- F.Ohlwärther
+"",,,,,,,,,,SCALE 1.61.077.411,WT-PART,1_13_078_XXX,DOCUMENT/Dokument,REVISION,
+"",,,,,,,,,,Maßstab,,,,,
+"",,Stall characteristics*,Anlaufdaten*,,,,,,,1:1 MOTOR,,,10285996,,
+"",,,,,,,,,,SIZE/Format SHEETDESCRIPTION,,,DATE OF ISSUE/Ausgabedatum,,
+"",,Stall torque,Anlaufmoment,,T /M O S H,,Ncm,3.2,3.1 DIMENSIONS IN MM/Maßangaben in mm,DIN A2 Beschreibung ENGLISH WORDING IS BINDING/Englischer Wortlaut verbindlich Motor,,,2014-06-27 ASSEM  DRAWING,BLATT 1von F,1
+1,2,Stall current 3,Anlaufst4rom,5,I /I,,6 A,7 1.8,8 0.9 9,10,,11,12,,
+"",,,,,S H,,,,,,,"1,8 (6×)",,,
+Performance characteristics*,Leistungsdaten*,,,,,
+max. Output power,max. Abgabeleistung,,P,W,5.0,5.0
+"",,,max,,,
+max. Constant torque,max. Dauerdrehmoment,T,/M,Ncm,0.60,0.60
+"",,max,max,,,
+Motor parameters*,Motorparameter*,,,
+Weight,Gewicht,G,g,78 78
+Rotor inertia,Läuferträgheitsmoment,J,gcm2,8.1 8.1
+Terminal resistance,Anschlusswiderstand,R,Ohm,6.2 27
+Inductance,Induktivität,L,mH,8.0 16
+Mech. time constant,Mech. Zeitkonstante,?,ms,18 19
+"",,m,,
+Electr. time constant,Elektr. Zeitkonstante,?,ms,1.3 0.8
+"",,e,,
+Speed regulation constant,Drehzahregelkonstante,R,rpm/Ncm,1840 1980
+"",,m,,
+Torque constant,Drehmomentkonstante,k /k,Ncm/A,1.8 3.6
+"",,t M,,
+Thermal resistance,Thermischer Widerstand,R,K/W,34 34
+"",,th,,
+Thermal time constant,Thermische Zeitkonstante,?,min,6.0 6.0
+"",,th,,
+Axial play,Axialspiel,,mm,0.05 – 0.6 0.05 – 0.6
+Direction of rotation,Drehrichtung,,,bidirectional / bidirektional
+"",? = f(T),,,,
+6000,,,,,60
+"",,,,2,
+"",? = f(T),,I = f(T),,
+5000,,,,,50
+"",,,,"1,5",
+4000,,,,,40
+3000,,,,,30
+"",,,I = f(T),1,
+"",,n = f(T),,,
+2000,,,,,20
+"",,,,"0,5",
+1000,,,,,10
+"",,,n = f(T),,
+Design,,Aufbau,
+Commutator,Copper/3-segments,Kollektor,Kupfer/3-teilig
+RFI Protection,Suppression disk;  2 capacitors,Grundentstörung,Entstörscheibe; 2 Kondensatoren
+Insulation class,"Winding F, otherwise A",Isolierstoffklasse,"Wicklung F, ansonsten A"
+Protection class,IP20,Schutzart,IP 20
+Commutation,Carbon brushes,Kommutierung,Kohlenbürsten
+Armature,straight slot,Anker,gerade Nut
+Magnet system,"Permanent magnets, 2-pole",Magnetsystem,"Permanentmagnete, 2-polig"
+Bearings,2 sintered bronze bearings,Motorlager,2 ölgetränkte Sinterbronzelager
+Housing,"Steel, corrosion protected",Gehäuse,"Stahl, korrosionsgeschützt"
+End shields,brush end plastic,Lagerschilde,kollektorseitig Kunststoff
+"",drive end zinc die-cast,,abtriebsseitig Zinkdruckguss
+Life expectancy**,up to 600 h,Lebensdauer**,bis 600 h
+Operational conditions*,Einsatzbedingungen*,,,
+Temperature range***,Temperaturbereich***,T,°C,-10 – +70
+Axial force,Axialkraft,F,N,5
+"",,A,,
+"Radial force, 10 mm from mounting surface","Radialkraft, 10 mm ab Anschraubfläche",F,N,10
+"",,R,,

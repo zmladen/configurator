@@ -61,7 +61,8 @@ class brushes(object):
             10                                            # bar
         # cm2
         Fges = (self.crossSectionSurface * 1E-2)
-
+        
+        # print(speed, 9.81 * self.frictionCoefficient * Pbar * Fges * v)
         return 9.81 * self.frictionCoefficient * Pbar * Fges * v  # W
 
     def getWeight(self):

@@ -7,6 +7,9 @@ frontend/node_modules
 frontend/.pnp
 frontend.pnp.js
 
+
+MyDraft.json
+
 # testing
 frontend/coverage
 

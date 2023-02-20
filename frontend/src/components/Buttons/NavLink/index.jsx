@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import styles from "./Styles/NavLink.module.css";
+import styles from "../Styles/Buttons.module.css";
 
 const Container = ({ className, to, children }) => (
   <NavLink

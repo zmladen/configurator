@@ -25,6 +25,7 @@ from .database.users.auth_ns import api as auth_api
 from .database.materials.materials_ns import api as materials_api
 from .database.parts.parts_ns import api as parts_api
 from .database.users.users_ns import api as users_api
+from .database.machines.scrapPDF_ns import api as scrapPDF_api
 
 api.add_namespace(auth_api)
 api.add_namespace(users_api)
@@ -35,6 +36,7 @@ api.add_namespace(machines_api)
 api.add_namespace(analytical_models_api)
 api.add_namespace(validate_dc_api)
 api.add_namespace(geometry_dc_api)
+api.add_namespace(scrapPDF_api)
 # api.add_namespace(reference_types_api)
 # api.add_namespace(commutator_api)
 # api.add_namespace(metals_api)

@@ -1,0 +1,9 @@
+.dropZone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .Dragging {
+    border-color: #666;
+  }

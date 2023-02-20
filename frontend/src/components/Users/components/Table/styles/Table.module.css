@@ -3,13 +3,13 @@
   border-collapse: collapse;
 }
 
-tr:hover {
+tr:nth-child(2n) {
   background-color: #eee;
 }
 
 th,
 td {
-  border: 1px solid #456;
+  border: none; /* Remove border */
   padding: 8px;
   text-align: left;
 }
@@ -20,6 +20,7 @@ td:hover {
 
 th {
   text-align: center;
+  background-color: #ebfbff;
 }
 
 td.green {
@@ -28,8 +29,4 @@ td.green {
 
 td.red {
   color: red;
-}
-
-th {
-  background-color: #ebfbff;
 }

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import Button from "../../components/Button";
+import Button from "../Buttons/Button";
 import styles from "./Styles/SignUp.module.css";
 import { Input } from "../../components/Forms";
 
@@ -26,7 +26,7 @@ function SignUp(props) {
         <Input label="Last Name" name="lastName" register={register} />
         <Input label="E-Mail" name="email" register={register} />
         <Input label="Password" name="password" register={register} />
-        <Button className="btn btn-dark btn-lg br-25 pt-10 pb-10 pl-20 pr-20">Sign Up</Button>
+        <Button className="btn btn-dark btn-lg">Sign Up</Button>
       </form>
     </div>
   );

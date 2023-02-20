@@ -4,6 +4,6 @@
   margin: 5px;
 }
 
-.ButtonGroup :first-child {
+.ButtonGroup :not(:last-child) {
   margin-right: 5px;
 }

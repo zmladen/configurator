@@ -3,9 +3,9 @@ import { useParams } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import Container from "../../../Container";
-import Button from "../../../Button";
-import ButtonGroup from "../../../ButtonGroup";
-import { Input, TextArea, Select } from "../../../Forms";
+import Button from "../../../Buttons/Button";
+import ButtonGroup from "../../../Buttons/ButtonGroup";
+import { SideBySide, Input, TextArea, Select } from "../../../Forms";
 import { fetchUsers, addUser, editUser } from "../../../../services/userService";
 import styles from "./Styles/UserForm.module.css";
 
@@ -78,29 +78,29 @@ function UserForm(props) {
     <div className={styles.UserForm}>
       <Container>
         <form onSubmit={handleSubmit(onSubmit)}>
-          <div className={styles.TwoFields}>
+          <SideBySide>
             <Input label="First Name" name="firstname" register={register} errors={errors} validationSchema={{ required: "First name is required!" }} />
             <Input label="Last Name" name="lastname" register={register} errors={errors} validationSchema={{ required: "Last name is required!" }} />
-          </div>
+          </SideBySide>
 
-          <div className={styles.TwoFields}>
+          <SideBySide>
             <Input label="Username" name="username" register={register} errors={errors} validationSchema={{ required: "Username is required!" }} />
             <Input label="Password" name="password" register={register} rrors={errors} validationSchema={{ required: "Password is required!" }} />
-          </div>
+          </SideBySide>
 
           <Input label="E-Mail" name="email" type="email" register={register} errors={errors} validationSchema={{ required: "E-Mail is required!" }} />
 
           <Select label="Gender" name="gender" options={["Male", "Female"]} register={register} />
 
-          <div className={styles.TwoFields}>
+          <SideBySide>
             <Select label="Admin?" name="admin" options={["Yes", "No"]} register={register} />
             <Select label="Status" defaultValue={user?.status ? "Active" : "Deactive"} name="status" options={["Active", "Deactive"]} register={register} />
-          </div>
+          </SideBySide>
 
-          <div className={styles.TwoFields}>
+          <SideBySide>
             <Input label="Mobile Tel." name="mobileTelephone" register={register} errors={errors} validationSchema={{ required: "Mobile telephon is required!" }} />
             <Input label="Office Tel." name="officeTelephone" register={register} errors={errors} validationSchema={{ required: "Office telephone is required!" }} />
-          </div>
+          </SideBySide>
 
           <TextArea label="About" name="about" type="textarea" errors={errors} register={register} placeholder="Enter your text..." />
 
